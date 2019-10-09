@@ -1,0 +1,8 @@
+Cnidocytean.n	Nematostella	Cnidocytean.n	root	Root	root	1
+Dig_filamentsan.n	Nematostella	DigFilaments.n	root	Root	root	1
+Epitheliuman.n	Nematostella	Epithelial.n	root	Root	root	1
+Gastrodermisan.n	Nematostella	Gastrodermis.n	root	Root	root	1
+Gland_secretoryan.n	Nematostella	Secretory.n	root	Root	root	1
+Musclean.n	Nematostella	Muscle.n	root	Root	root	1
+Neuronan.n	Nematostella	Neuron.n	root	Root	root	1
+Precursorsan.n	Nematostella	Proliferating.n	root	Root	root	1
