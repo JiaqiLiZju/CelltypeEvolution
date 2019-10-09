@@ -1,0 +1,438 @@
+Celltype	Species	Cluster	Sub_Cluster
+Apelin cells(H).z	Zebrafish	Apelin.z	Apelin.z
+Apelin cells(P).z	Zebrafish	Apelin.z	Apelin.z
+Brown.fat.m	Mouse	BrownFat.m	Muscle.m
+Cnidocytean.n	Nematostella	Cnidocytean.n	Cnidocytean.n
+Coelomocytes.c	Celegans	Coelomocytes.c	Coelomocytes.c
+Dig_filamentsan.n	Nematostella	DigFilaments.n	DigFilaments.n
+Distal tip cells.c	Celegans	DistalTip.c	DistalTip.c
+Ciona32	SeaSquirts	Endoderm.a	Proliferating.a
+Ciona33	SeaSquirts	Endoderm.a	Proliferating.a
+Ciona34	SeaSquirts	Endoderm.a	Proliferating.a
+Ciona35	SeaSquirts	Endoderm.a	Proliferating.a
+Ciona36	SeaSquirts	Endoderm.a	Proliferating.a
+Endocrine epithelial.h	Human	Endothelial.h	Endothelial.h
+Endothelial cell A.h	Human	Endothelial.h	Endothelial.h
+Endothelial cell B.h	Human	Endothelial.h	Endothelial.h
+Endothelial cell C.h	Human	Endothelial.h	Endothelial.h
+Endothelial cell D.h	Human	Endothelial.h	Endothelial.h
+Endothelial cell(APC).h	Human	Endothelial.h	Endothelial.h
+Unknown1/Endothelial.h	Human	Endothelial.h	Endothelial.h
+Endothelial cell A.m	Mouse	Endothelial.m	Endothelial.m
+Endothelial cell B.m	Mouse	Endothelial.m	Endothelial.m
+Endothelial cell C.m	Mouse	Endothelial.m	Endothelial.m
+Endothelial cell D.m	Mouse	Endothelial.m	Endothelial.m
+Unknown(H).z	Zebrafish	Endothelial.z	UnknownH.z
+Unknown(B).z	Zebrafish	Endothelial.z	UnknownB.z
+Endocardial cells(H).z	Zebrafish	Endothelial.z	Endothelial.z
+Endothelial cells.lz	Zebrafish	Endothelial.z	Endothelial.z
+Endothelial cells (Blood vessel)(H).z	Zebrafish	Endothelial.z	Endothelial.z
+Endothelial cells (Blood vessel)(P).z	Zebrafish	Endothelial.z	Endothelial.z
+Endothelial cells (Heart)(H).z	Zebrafish	Endothelial.z	Endothelial.z
+Endothelial cells (lymph)(P).z	Zebrafish	Endothelial.z	Endothelial.z
+Ciona10	SeaSquirts	Epithelial.a	Epithelial.a
+Ciona12	SeaSquirts	Epithelial.a	Epithelial.a
+Ciona14	SeaSquirts	Epithelial.a	EpithelialA.a
+Ciona15	SeaSquirts	Epithelial.a	EpithelialA.a
+Ciona9	SeaSquirts	Epithelial.a	Epithelial.a
+Pharyngeal epithelia.c	Celegans	Epithelial.c	Pharynx.c
+Non-seam hypodermis.c	Celegans	Epithelial.c	Epithelial.c
+AT2 cell.h	Human	Epithelial.h	Epithelial.h
+Basal cell A.h	Human	Epithelial.h	Epithelial.h
+Basal cell B.h	Human	Epithelial.h	Epithelial.h
+Ciliated cell.h	Human	Epithelial.h	Epithelial.h
+Enterocyte  B.h	Human	Epithelial.h	Epithelial.h
+Enterocyte  C.h	Human	Epithelial.h	Epithelial.h
+Enterocyte A.h	Human	Epithelial.h	Epithelial.h
+Epithelial cell (kidney).h	Human	Epithelial.h	Epithelial.h
+Epithelial cell A.h	Human	Epithelial.h	Epithelial.h
+Epithelial cell B.h	Human	Epithelial.h	Epithelial.h
+Epithelial cell C.h	Human	Epithelial.h	Epithelial.h
+Epithelial cell D.h	Human	Epithelial.h	Epithelial.h
+Epithelial cell E.h	Human	Epithelial.h	Epithelial.h
+Esophagus Basal cell.h	Human	Epithelial.h	Epithelial.h
+Stratified epithelial cell.h	Human	Epithelial.h	Epithelial.h
+Thyroid follicular cell.h	Human	Epithelial.h	Epithelial.h
+Alveolar type I cell.m	Mouse	Epithelial.m	Epithelial.m
+Alveolar type II cell.m	Mouse	Epithelial.m	Epithelial.m
+Epithelial cell A.m	Mouse	Epithelial.m	Epithelial.m
+Epithelial cell B.m	Mouse	Epithelial.m	Epithelial.m
+Epithelial cell D.m	Mouse	Epithelial.m	Epithelial.m
+Gastric epithelial cell.m	Mouse	Epithelial.m	Epithelial.m
+Intestinal epithelial cell.m	Mouse	Epithelial.m	Epithelial.m
+Leydig cell.m	Mouse	Epithelial.m	Epithelial.m
+Proximal tubule brush border cell.m	Mouse	Epithelial.m	Epithelial.m
+Renal tubular cell.m	Mouse	Epithelial.m	Epithelial.m
+Urothelium.m	Mouse	Epithelial.m	Epithelial.m
+Epitheliuman.n	Nematostella	Epithelial.n	Epithelial.n
+epidermis.s	Schmidtea	Epithelial.s	Epithelial.s
+epidermis DVb.s	Schmidtea	Epithelial.s	Epithelial.s
+Kidney cells.lz	Zebrafish	Epithelial.z	Epithelial.z
+Intestinal cells A.lz	Zebrafish	Epithelial.z	Epithelial.z
+Epidermal cells A.lz	Zebrafish	Epithelial.z	Epithelial.z
+Epidermal cells B.lz	Zebrafish	Epithelial.z	Epithelial.z
+Epidermal cells C.lz	Zebrafish	Epithelial.z	Epithelial.z
+Epidermal cells D.lz	Zebrafish	Epithelial.z	Epithelial.z
+Epidermal precursors.lz	Zebrafish	Epithelial.z	Epithelial.z
+Epithelial cells (Fin).lz	Zebrafish	Epithelial.z	Epithelial.z
+Epithelial cells (Mucosa).lz	Zebrafish	Epithelial.z	Epithelial.z
+Epithelial cells (other).lz	Zebrafish	Epithelial.z	Epithelial.z
+Epithelial cells (Otic vesicle).lz	Zebrafish	Epithelial.z	Epithelial.z
+Lens cells A.lz	Zebrafish	Epithelial.z	Epithelial.z
+Lens cells B.lz	Zebrafish	Epithelial.z	Epithelial.z
+Nephric duct cells.lz	Zebrafish	Epithelial.z	Epithelial.z
+Retinal pigment epithelial cells.lz	Zebrafish	Epithelial.z	Epithelial.z
+Keratinocytes A.lz	Zebrafish	Epithelial.z	Epithelial.z
+Keratinocytes B.lz	Zebrafish	Epithelial.z	Epithelial.z
+Pigment cells (Iridophores).lz	Zebrafish	Epithelial.z	Epithelial.z
+Pigment cells (Melanocytes).lz	Zebrafish	Epithelial.z	Epithelial.z
+Pigment cells (Xantophores).lz	Zebrafish	Epithelial.z	Epithelial.z
+Erythrocyte A.h	Human	Erythroid.h	Erythroid.h
+Erythrocyte B.h	Human	Erythroid.h	Erythroid.h
+Erythrocyte C.h	Human	Erythroid.h	Erythroid.h
+Erythroid Progenitor.h	Human	Erythroid.h	Erythroid.h
+Erythroblast.m	Mouse	Erythroid.m	Erythroid.m
+Erythrocyte A.m	Mouse	Erythroid.m	Erythroid.m
+Erythrocyte B.m	Mouse	Erythroid.m	Erythroid.m
+Erythrocyte C.m	Mouse	Erythroid.m	Erythroid.m
+Erythrocytes A.lz	Zebrafish	Erythroid.z	Erythroid.z
+Erythrocytes B.lz	Zebrafish	Erythroid.z	Erythroid.z
+Erythrocytes(H).z	Zebrafish	Erythroid.z	Erythroid.z
+Excretory cells.c	Celegans	Excretory.c	Excretory.c
+protonephridia.s	Schmidtea	Excretory.s	Excretory.s
+Adipocyte.m	Mouse	Fat.m	Muscle.m
+Gastrodermisan.n	Nematostella	Gastrodermis.n	Gastrodermis.n
+Am/PH sheath cells.c	Celegans	Glia.c	Glia.c
+Socket cells.c	Celegans	Glia.c	Glia.c
+glia.s	Schmidtea	Glia.s	Glia.s
+Hepatocyte.h	Human	Hepatocyte.h	Hepatocyte.h
+Hepatocyte A.m	Mouse	Hepatocyte.m	Hepatocyte.m
+Hepatocyte B.m	Mouse	Hepatocyte.m	Hepatocyte.m
+Hepatocyte C.m	Mouse	Hepatocyte.m	Hepatocyte.m
+Hepatocytes A.lz	Zebrafish	Hepatocyte.z	Hepatocyte.z
+Hepatocytes B.lz	Zebrafish	Hepatocyte.z	Hepatocyte.z
+Hepatocytes C.lz	Zebrafish	Hepatocyte.z	Hepatocyte.z
+Hepatocytes A(P).z	Zebrafish	Hepatocyte.z	Hepatocyte.z
+Hepatocytes B(P).z	Zebrafish	Hepatocyte.z	Hepatocyte.z
+CD8 T cell A.h	Human	Immune.h	T cell.h
+CD8 T cell B.h	Human	Immune.h	T cell.h
+T cell A.h	Human	Immune.h	T cell.h
+T cell B.h	Human	Immune.h	T cell.h
+Plasmocyte A.h	Human	Immune.h	Plasmocyte.h
+Plasmocyte B.h	Human	Immune.h	Plasmocyte.h
+Neutrophil A.h	Human	Immune.h	Neutrophil.h
+Neutrophil B.h	Human	Immune.h	Neutrophil.h
+Neutrophil C.h	Human	Immune.h	Neutrophil.h
+Neutrophil D.h	Human	Immune.h	Neutrophil.h
+Neutrophil E.h	Human	Immune.h	Neutrophil.h
+Neutrophil F.h	Human	Immune.h	Neutrophil.h
+Myeloid cell A.h	Human	Immune.h	Myeloid.h
+Myeloid cell B.h	Human	Immune.h	Myeloid.h
+Monocyte A.h	Human	Immune.h	Monocyte.h
+Monocyte B.h	Human	Immune.h	Monocyte.h
+Mast cell.h	Human	Immune.h	Mast.h
+Hofbauer cell.h	Human	Immune.h	Macrophage.h
+Macrophage A.h	Human	Immune.h	Macrophage.h
+Macrophage B.h	Human	Immune.h	Macrophage.h
+Macrophage C.h	Human	Immune.h	Macrophage.h
+Macrophage D.h	Human	Immune.h	Macrophage.h
+Macrophage E.h	Human	Immune.h	Macrophage.h
+Macrophage F.h	Human	Immune.h	Macrophage.h
+Macrophage/Lymphatic vessel endothelial.h	Human	Immune.h	Macrophage.h
+Microglia A.h	Human	Immune.h	Macrophage.h
+Microglia B.h	Human	Immune.h	Macrophage.h
+Conventional dendritic cell A.h	Human	Immune.h	Dendritic.h
+Conventional dendritic cell B.h	Human	Immune.h	Dendritic.h
+Centrocyte.h	Human	Immune.h	Centrocyte.h
+Cd8 T cell A.m	Mouse	Immune.m	T cell.m
+Cd8 T cell.m	Mouse	Immune.m	T cell.m
+T cell A.m	Mouse	Immune.m	T cell.m
+T cell B.m	Mouse	Immune.m	T cell.m
+Neutrophil A.m	Mouse	Immune.m	Neutrophil.m
+Neutrophil B.m	Mouse	Immune.m	Neutrophil.m
+Neutrophil C.m	Mouse	Immune.m	Neutrophil.m
+Neutrophil D.m	Mouse	Immune.m	Neutrophil.m
+Monocyte A.m	Mouse	Immune.m	Monocyte.m
+Monocyte B.m	Mouse	Immune.m	Monocyte.m
+Mast cell.m	Mouse	Immune.m	Mast.m
+M1 Macrophage.m	Mouse	Immune.m	Macrophage.m
+M2 Macrophage A.m	Mouse	Immune.m	Macrophage.m
+M2 Macrophage B.m	Mouse	Immune.m	Macrophage.m
+Macrophage A.m	Mouse	Immune.m	Macrophage.m
+Macrophage B.m	Mouse	Immune.m	Macrophage.m
+Macrophage C.m	Mouse	Immune.m	Macrophage.m
+Dendritic cell .m	Mouse	Immune.m	Dendritic.m
+Dendritic cell A.m	Mouse	Immune.m	Dendritic.m
+Dendritic cell B.m	Mouse	Immune.m	Dendritic.m
+Dendritic cell C.m	Mouse	Immune.m	Dendritic.m
+Dendritic cell D.m	Mouse	Immune.m	Dendritic.m
+Dendritic cell E.m	Mouse	Immune.m	Dendritic.m
+B cel (centrocyte).m	Mouse	Immune.m	B cell.m
+B cell A.m	Mouse	Immune.m	B cell.m
+B cell B.m	Mouse	Immune.m	B cell.m
+T cells(H).z	Zebrafish	Immune.z	Immune.z
+T cells(P).z	Zebrafish	Immune.z	Immune.z
+Neutrophils.lz	Zebrafish	Immune.z	Immune.z
+Monocytes(H).z	Zebrafish	Immune.z	Immune.z
+Macrophages.lz	Zebrafish	Immune.z	Immune.z
+Macrophages(H).z	Zebrafish	Immune.z	Immune.z
+Macrophages(P).z	Zebrafish	Immune.z	Immune.z
+Microglia(B).z	Zebrafish	Immune.z	Immune.z
+Lymphocytes A.lz	Zebrafish	Immune.z	Immune.z
+Lymphocytes B.lz	Zebrafish	Immune.z	Immune.z
+Granulocytes(H).z	Zebrafish	Immune.z	Immune.z
+Granulocytes(P).z	Zebrafish	Immune.z	Immune.z
+B cells(H).z	Zebrafish	Immune.z	Immune.z
+Intestine.c	Celegans	Intestine.c	Epithelial.c
+Ciona1	SeaSquirts	Mesenchyme.a	Mesenchyme.a
+Ciona17	SeaSquirts	Mesenchyme.a	Mesenchyme.a
+Ciona2	SeaSquirts	Mesenchyme.a	Mesenchyme.a
+Ciona20	SeaSquirts	Mesenchyme.a	Mesenchyme.a
+Ciona21	SeaSquirts	Mesenchyme.a	MesenchymeA.a
+Ciona23	SeaSquirts	Mesenchyme.a	Mesenchyme.a
+Ciona24	SeaSquirts	Mesenchyme.a	MesenchymeA.a
+Ciona25	SeaSquirts	Mesenchyme.a	MesenchymeA.a
+Ciona27	SeaSquirts	Mesenchyme.a	Mesenchyme.a
+Ciona28	SeaSquirts	Mesenchyme.a	Mesenchyme.a
+Ciona3	SeaSquirts	Mesenchyme.a	Mesenchyme.a
+Ciona4	SeaSquirts	Mesenchyme.a	Mesenchyme.a
+Ciona7	SeaSquirts	Mesenchyme.a	MesenchymeA.a
+Ciona26	SeaSquirts	Muscle.a	Muscle.a
+Ciona30	SeaSquirts	Muscle.a	Muscle.a
+Ciona8	SeaSquirts	Muscle.a	Muscle1.a
+Pharyngeal muscle.c	Celegans	Muscle.c	Pharynx.c
+Body wall muscle.c	Celegans	Muscle.c	Muscle.c
+Intestinal/rectal muscle.c	Celegans	Muscle.c	Muscle.c
+Smooth muscle cell A.h	Human	Muscle.h	Muscle.h
+Smooth muscle cell B.h	Human	Muscle.h	Muscle.h
+Smooth muscle cell C.h	Human	Muscle.h	Muscle.h
+Ventricle Cardiomyocyte A.h	Human	Muscle.h	Muscle.h
+Ventricle cardiomyocyte B.h	Human	Muscle.h	Muscle.h
+Smooth muscle cell A.m	Mouse	Muscle.m	Muscle.m
+Smooth muscle cell B.m	Mouse	Muscle.m	Muscle.m
+Smooth muscle cell C.m	Mouse	Muscle.m	Muscle.m
+Smooth muscle cell D.m	Mouse	Muscle.m	Muscle.m
+Skeletal muscle cell A.m	Mouse	Muscle.m	Muscle.m
+Skeletal muscle cell B.m	Mouse	Muscle.m	Muscle.m
+Myocyte.m	Mouse	Muscle.m	Muscle.m
+Musclean.n	Nematostella	Muscle.n	Muscle.n
+muscle pharynx.s	Schmidtea	Muscle.s	Muscle.s
+muscle body.s	Schmidtea	Muscle.s	Muscle.s
+Smooth muscle B.lz	Zebrafish	Muscle.z	Muscle.z
+Smooth muscle cells A (Vasculature).lz	Zebrafish	Muscle.z	Muscle.z
+Smooth muscle cells (Heart)(H).z	Zebrafish	Muscle.z	Muscle.z
+Smooth muscle cells A(P).z	Zebrafish	Muscle.z	Muscle.z
+Smooth muscle cells B (Endocrine pancreas)(P).z	Zebrafish	Muscle.z	Muscle.z
+Skeletal muscle cells A.lz	Zebrafish	Muscle.z	Muscle.z
+Skeletal muscle cells B.lz	Zebrafish	Muscle.z	Muscle.z
+Skeletal muscle cells C.lz	Zebrafish	Muscle.z	Muscle.z
+Skeletal muscle cells D.lz	Zebrafish	Muscle.z	Muscle.z
+Skeletal muscle cells E (slow).lz	Zebrafish	Muscle.z	Muscle.z
+Muscle cells (Pectoral fin).lz	Zebrafish	Muscle.z	Muscle.z
+Cardiomyocytes (Atrium)(H).z	Zebrafish	Muscle.z	Muscle.z
+Cardiomyocytes (Ventricle)(H).z	Zebrafish	Muscle.z	Muscle.z
+Ciona11	SeaSquirts	Neuron.a	NeuronA.a
+Ciona13	SeaSquirts	Neuron.a	NeuronA.a
+Ciona16	SeaSquirts	Neuron.a	Neuron.a
+Ciona18	SeaSquirts	Neuron.a	Neuron.a
+Ciona19	SeaSquirts	Neuron.a	Neuron.a
+Ciona22	SeaSquirts	Neuron.a	Neuron.a
+Ciona29	SeaSquirts	Neuron.a	Neuron.a
+Ciona6	SeaSquirts	Neuron.a	Neuron.a
+Canal associated neurons.c	Celegans	Neuron.c	Neuron.c
+Cholinergic neurons.c	Celegans	Neuron.c	Neuron.c
+Ciliated sensory neurons.c	Celegans	Neuron.c	Neuron.c
+Dopaminergic neurons.c	Celegans	Neuron.c	Neuron.c
+flp-1(+) interneurons.c	Celegans	Neuron.c	Neuron.c
+GABAergic neurons.c	Celegans	Neuron.c	Neuron.c
+Other interneurons.c	Celegans	Neuron.c	Neuron.c
+Oxygen sensory neurons.c	Celegans	Neuron.c	Neuron.c
+Pharyngeal neurons.c	Celegans	Neuron.c	Neuron.c
+Touch receptor neurons.c	Celegans	Neuron.c	Neuron.c
+Excitatory neuron.h	Human	Neuron.h	Neuron.h
+Neuron (Chromaffin cell).h	Human	Neuron.h	Neuron.h
+Neuron A.h	Human	Neuron.h	Neuron.h
+Neuron B.h	Human	Neuron.h	Neuron.h
+Neuron C.h	Human	Neuron.h	Neuron.h
+Neuron D.h	Human	Neuron.h	Neuron.h
+Neuronal cell.h	Human	Neuron.h	Neuron.h
+Ependymal cell.h	Human	Neuron.h	Neuron.h
+Oligodendrocyte A.h	Human	Neuron.h	Neuron.h
+Oligodendrocyte B.h	Human	Neuron.h	Neuron.h
+Neuron A.m	Mouse	Neuron.m	Neuron.m
+Neuron B.m	Mouse	Neuron.m	Neuron.m
+Astrocyte.m	Mouse	Neuron.m	Neuron.m
+Oligodendrocyte A.m	Mouse	Neuron.m	Neuron.m
+Oligodendrocyte B.m	Mouse	Neuron.m	Neuron.m
+Oligodendrocyte.m	Mouse	Neuron.m	Neuron.m
+Neuronan.n	Nematostella	Neuron.n	Neuron.n
+cav-1+ neurons.s	Schmidtea	Neuron.s	Neuron.s
+ChAT neurons 1.s	Schmidtea	Neuron.s	Neuron.s
+ChAT neurons 2.s	Schmidtea	Neuron.s	Neuron.s
+GABA neurons.s	Schmidtea	Neuron.s	Neuron.s
+npp-18+ neurons.s	Schmidtea	Neuron.s	Neuron.s
+otf+ cells 1.s	Schmidtea	Neuron.s	Neuron.s
+otf+ cells 2.s	Schmidtea	Neuron.s	Neuron.s
+spp-11+ neurons.s	Schmidtea	Neuron.s	Neuron.s
+sst1.1 cells(P).z	Zebrafish	Neuron.z	Somatostatin1.z
+Inner ear cells.lz	Zebrafish	Neuron.z	Neuron.z
+Cone cells.lz	Zebrafish	Neuron.z	Neuron.z
+Neuromast cells.lz	Zebrafish	Neuron.z	Neuron.z
+Neurons A (Brain).lz	Zebrafish	Neuron.z	Neuron.z
+Neurons C (Spinal cord).lz	Zebrafish	Neuron.z	Neuron.z
+Neurons D (Brain).lz	Zebrafish	Neuron.z	Neuron.z
+Olfactory receptor cells.lz	Zebrafish	Neuron.z	Neuron.z
+Retinal cells A.lz	Zebrafish	Neuron.z	Neuron.z
+Retinal cells B.lz	Zebrafish	Neuron.z	Neuron.z
+Rod cells.lz	Zebrafish	Neuron.z	Neuron.z
+Neurons (CNS)(B).z	Zebrafish	Neuron.z	Neuron.z
+Peripheral Neurons(P).z	Zebrafish	Neuron.z	Neuron.z
+Glial cells (Peripheral).lz	Zebrafish	Neuron.z	Neuron.z
+Oligodendrocytes.lz	Zebrafish	Neuron.z	Neuron.z
+Radial glia A.lz	Zebrafish	Neuron.z	Neuron.z
+Radial glia B.lz	Zebrafish	Neuron.z	Neuron.z
+Oligodendrocytes(B).z	Zebrafish	Neuron.z	Neuron.z
+Radial glia(B).z	Zebrafish	Neuron.z	Neuron.z
+Ciona31	SeaSquirts	Notochord.a	Notochord.a
+aqp+ parenchymal cells.s	Schmidtea	Parenchymal.s	Parenchymal.s
+ldlrr-1+ parenchymal cells.s	Schmidtea	Parenchymal.s	Parenchymal.s
+pgrn+ parenchymal cells.s	Schmidtea	Parenchymal.s	Parenchymal.s
+psap+ parenchymal cells.s	Schmidtea	Parenchymal.s	Parenchymal.s
+psd+ cells.s	Schmidtea	Parenchymal.s	Parenchymal.s
+phagocytes.s	Schmidtea	Phagocytes.s	Phagocytes.s
+Pharyngeal gland.c	Celegans	Pharynx.c	Pharynx.c
+pharynx cell type.s	Schmidtea	Pharynx.s	Pharynx.s
+pigment.s	Schmidtea	Pigment.s	Parenchymal.s
+Ciona5	SeaSquirts	Proliferating.a	Proliferating.a
+Germline.c	Celegans	Proliferating.c	Proliferating.c
+Sex myoblasts.c	Celegans	Proliferating.c	Proliferating.c
+Somatic gonad precursors.c	Celegans	Proliferating.c	Proliferating.c
+Vulval precursors.c	Celegans	Proliferating.c	Proliferating.c
+Seam cells.c	Celegans	Proliferating.c	Proliferating.c
+Proliferating stromal cell.h	Human	Proliferating.h	Proliferating.h
+S-shaped body cell.h	Human	Proliferating.h	Proliferating.h
+Proliferating epithelial cell.m	Mouse	Proliferating.m	ProliferatingEpithelial.m
+Cumulus cell.m	Mouse	Proliferating.m	Cumulus.m
+Premeiotic germ cell.m	Mouse	Proliferating.m	Proliferating.m
+Proliferating cell A.m	Mouse	Proliferating.m	Proliferating.m
+Proliferating cell B.m	Mouse	Proliferating.m	Proliferating.m
+Proliferating cell C.m	Mouse	Proliferating.m	Proliferating.m
+Ribosome-gene-high cell.m	Mouse	Proliferating.m	Proliferating.m
+Spermatogonia.m	Mouse	Proliferating.m	Proliferating.m
+Spongiotrophoblast.m	Mouse	Proliferating.m	Proliferating.m
+Trophoblast progenitor cell.m	Mouse	Proliferating.m	Trophoblast.m
+Precursorsan.n	Nematostella	Proliferating.n	Proliferating.n
+epidermis DVb neoblast.s	Schmidtea	Proliferating.s	Proliferating.s
+activated early epidermal progenitors.s	Schmidtea	Proliferating.s	Proliferating.s
+early epidermal progenitors.s	Schmidtea	Proliferating.s	Proliferating.s
+epidermal neoblasts.s	Schmidtea	Proliferating.s	Proliferating.s
+late epidermal progenitors 1.s	Schmidtea	Proliferating.s	Proliferating.s
+late epidermal progenitors 2.s	Schmidtea	Proliferating.s	Proliferating.s
+muscle progenitors.s	Schmidtea	Proliferating.s	Proliferating.s
+neural progenitors.s	Schmidtea	Proliferating.s	Proliferating.s
+parenchymal progenitors.s	Schmidtea	Proliferating.s	Proliferating.s
+pharynx cell type progenitors.s	Schmidtea	Proliferating.s	Proliferating.s
+neoblast 1.s	Schmidtea	Proliferating.s	Proliferating.s
+neoblast 2.s	Schmidtea	Proliferating.s	Proliferating.s
+neoblast 10.s	Schmidtea	Proliferating.s	Proliferating.s
+neoblast 11.s	Schmidtea	Proliferating.s	Proliferating.s
+neoblast 12.s	Schmidtea	Proliferating.s	Proliferating.s
+neoblast 13.s	Schmidtea	Proliferating.s	Proliferating.s
+neoblast 3.s	Schmidtea	Proliferating.s	Proliferating.s
+neoblast 4.s	Schmidtea	Proliferating.s	Proliferating.s
+neoblast 5.s	Schmidtea	Proliferating.s	Proliferating.s
+neoblast 6.s	Schmidtea	Proliferating.s	Proliferating.s
+neoblast 7.s	Schmidtea	Proliferating.s	Proliferating.s
+neoblast 8.s	Schmidtea	Proliferating.s	Proliferating.s
+neoblast 9.s	Schmidtea	Proliferating.s	Proliferating.s
+gut progenitors.s	Schmidtea	Proliferating.s	Proliferating.s
+Neuronal precursors A.lz	Zebrafish	Proliferating.z	Proliferating.z
+Neuronal precursors B.lz	Zebrafish	Proliferating.z	Proliferating.z
+Neurons B (Proliferating).lz	Zebrafish	Proliferating.z	Proliferating.z
+Satellite cells.lz	Zebrafish	Proliferating.z	Proliferating.z
+Undifferentiated mesodermal cells.lz	Zebrafish	Proliferating.z	Proliferating.z
+Undifferentiated cells(P).z	Zebrafish	Proliferating.z	Proliferating.z
+Corneal cells.lz	Zebrafish	Proliferating.z	Corneal.z
+Rectum.c	Celegans	Rectum.c	Epithelial.c
+root	Root	root.r	root.r
+Acinar cell A.h	Human	Secretory.h	Secretory.h
+Acinar cell B.h	Human	Secretory.h	Secretory.h
+Endocrine cell.h	Human	Secretory.h	Secretory.h
+Gastric chief cell.h	Human	Secretory.h	Secretory.h
+Gastric Endocrine cell.h	Human	Secretory.h	Secretory.h
+Goblet cell.h	Human	Secretory.h	Secretory.h
+Pancreas exocrine cell.h	Human	Secretory.h	Secretory.h
+Prostate gland cell.m	Mouse	Secretory.m	GermlineS.m
+Goblet cell.m	Mouse	Secretory.m	Secretory.m
+Luteal cell.m	Mouse	Secretory.m	Luteal.m
+Mammary gland in lactation.m	Mouse	Secretory.m	GermlineS.m
+Pancreatic acinar cell A.m	Mouse	Secretory.m	Secretory.m
+Pancreatic acinar cell B.m	Mouse	Secretory.m	Secretory.m
+Pancreatic endocrine cell.m	Mouse	Secretory.m	Secretory.m
+Pit cell.m	Mouse	Secretory.m	Secretory.m
+Gland_secretoryan.n	Nematostella	Secretory.n	Secretory.n
+goblet cells.s	Schmidtea	Secretory.s	Secretory.s
+secretory 1.s	Schmidtea	Secretory.s	Secretory.s
+secretory 2.s	Schmidtea	Secretory.s	Secretory.s
+secretory 3.s	Schmidtea	Secretory.s	Secretory.s
+secretory 4.s	Schmidtea	Secretory.s	Secretory.s
+Intestinal cells B (Exocrine).lz	Zebrafish	Secretory.z	Secretory.z
+Pancreas exocrine cells.lz	Zebrafish	Secretory.z	Secretory.z
+Pancreas endocrine cells (alpha)(P).z	Zebrafish	Secretory.z	Secretory.z
+Pancreas endocrine cells (beta)(P).z	Zebrafish	Secretory.z	Secretory.z
+Pancreas endocrine cells (delta)(P).z	Zebrafish	Secretory.z	Secretory.z
+Pancreas endocrine cells (epsilon)(P).z	Zebrafish	Secretory.z	Secretory.z
+Pancreas endocrine cells (gip)(P).z	Zebrafish	Secretory.z	Secretory.z
+Pancreas exocrine cells A(P).z	Zebrafish	Secretory.z	Secretory.z
+Pancreas exocrine cells B(P).z	Zebrafish	Secretory.z	Secretory.z
+Pancreas duct epithelial cells(P).z	Zebrafish	Secretory.z	Secretory.z
+Stromal cell A.h	Human	Stromal.h	Stromal.h
+Stromal cell B.h	Human	Stromal.h	Stromal.h
+Stromal cell C.h	Human	Stromal.h	Stromal.h
+Stromal cell D.h	Human	Stromal.h	Stromal.h
+Stromal cell E.h	Human	Stromal.h	Stromal.h
+Osteoclast.h	Human	Stromal.h	Stromal.h
+Fibroblast A.h	Human	Stromal.h	Stromal.h
+Fibroblast B.h	Human	Stromal.h	Stromal.h
+Fibroblast C.h	Human	Stromal.h	Stromal.h
+Fibroblast D.h	Human	Stromal.h	Stromal.h
+Fibroblast E.h	Human	Stromal.h	Stromal.h
+Fibroblast F.h	Human	Stromal.h	Stromal.h
+Fibroblast G.h	Human	Stromal.h	Stromal.h
+Fibroblast H.h	Human	Stromal.h	Stromal.h
+Fasciculata cell A.h	Human	Stromal.h	Stromal.h
+Fasciculata cell B.h	Human	Stromal.h	Stromal.h
+Cartilage cell.h	Human	Stromal.h	Stromal.h
+Chondrocytes A.h	Human	Stromal.h	Stromal.h
+Chondrocytes B.h	Human	Stromal.h	Stromal.h
+Chondrocytes C.h	Human	Stromal.h	Stromal.h
+Kidney stromal cell.m	Mouse	Stromal.m	Stromal.m
+Sertoli cell.m	Mouse	Stromal.m	Stromal.m
+Stromal cell A.m	Mouse	Stromal.m	Stromal.m
+Stromal cell C.m	Mouse	Stromal.m	Stromal.m
+Stromal cell D.m	Mouse	Stromal.m	Stromal.m
+Stromal cell E.m	Mouse	Stromal.m	Stromal.m
+Stromal cell F.m	Mouse	Stromal.m	Stromal.m
+Osteoblast.m	Mouse	Stromal.m	Stromal.m
+Fibroblast A.m	Mouse	Stromal.m	Stromal.m
+Fibroblast B.m	Mouse	Stromal.m	Stromal.m
+Fibroblast C.m	Mouse	Stromal.m	Stromal.m
+Fibroblast D.m	Mouse	Stromal.m	Stromal.m
+Chondrocyte A.m	Mouse	Stromal.m	Stromal.m
+Chondrocyte B.m	Mouse	Stromal.m	Stromal.m
+Chondrocyte C.m	Mouse	Stromal.m	Stromal.m
+Chondrocyte D.m	Mouse	Stromal.m	Stromal.m
+Osteoblasts.lz	Zebrafish	Stromal.z	Stromal.z
+Fibroblasts A.lz	Zebrafish	Stromal.z	Stromal.z
+Fibroblasts B (Fin).lz	Zebrafish	Stromal.z	Stromal.z
+Fibroblasts C.lz	Zebrafish	Stromal.z	Stromal.z
+Fibroblasts D.lz	Zebrafish	Stromal.z	Stromal.z
+Fibroblasts (Heart)(H).z	Zebrafish	Stromal.z	Stromal.z
+Fibroblasts (Liver)(P).z	Zebrafish	Stromal.z	Stromal.z
+Fibroblasts (Pancreas)(P).z	Zebrafish	Stromal.z	Stromal.z
+Chondrocytes A.lz	Zebrafish	Stromal.z	Stromal.z
+Chondrocytes B.lz	Zebrafish	Stromal.z	Stromal.z
+Chondrocytes C.lz	Zebrafish	Stromal.z	Stromal.z
+Chondrocytes D.lz	Zebrafish	Stromal.z	Stromal.z
+Testicular cell.m	Mouse	Testicular.m	Testicular.m
+TNFalpha cells(H).z	Zebrafish	TNFalpha.z	TNFalpha.z
