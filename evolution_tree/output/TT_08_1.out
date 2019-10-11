@@ -1,0 +1,110 @@
+Sub_Cluster1	Sub_Cluster2	Value
+Centrocyte.h	B cell.m	0.894062667666667
+Monocyte.h	B cell.m	0.891298189666667
+Myeloid.h	B cell.m	0.833963139666667
+Neutrophil.h	B cell.m	0.809923030333333
+Plasmocyte.h	B cell.m	0.849057921833333
+T cell.h	B cell.m	0.868907782916667
+Centrocyte.h	Dendritic.m	0.827890381666667
+Dendritic.h	Dendritic.m	0.870879011
+Macrophage.h	Dendritic.m	0.818660232683333
+Monocyte.h	Dendritic.m	0.909952791083333
+Neutrophil.h	Dendritic.m	0.810734159333333
+Excretory.s	DigFilaments.n	0.891140257
+Pharynx.s	DigFilaments.n	0.901407635
+Endothelial.h	Endothelial.m	0.816539545178571
+Endothelial.m	Endothelial.z	0.9376274325
+Epithelial.a	Epithelial.c	0.829892680555556
+Epithelial.h	Epithelial.m	0.810965114011364
+Secretory.h	Epithelial.m	0.848628738194805
+Excretory.s	Epithelial.n	0.817079886
+Epithelial.c	Epithelial.s	0.804802423166667
+Excretory.c	Epithelial.s	0.889562059
+Glia.c	Epithelial.s	0.85763258575
+Pharynx.c	Epithelial.s	0.832233643333333
+Erythroid.h	Erythroid.m	0.8734860440625
+Erythroid.m	Erythroid.z	0.856181083083333
+Epithelial.a	Excretory.c	0.814456892333333
+Excretory.c	Excretory.s	0.871458684
+Glia.c	Excretory.s	0.8757884065
+Neuron.c	Excretory.s	0.8717313731
+Pharynx.c	Excretory.s	0.839765062333333
+Glia.s	Gastrodermis.n	0.864691871
+Parenchymal.s	Gastrodermis.n	0.859939579333333
+Phagocytes.s	Gastrodermis.n	0.941300447
+Epithelial.a	Glia.c	0.8868292065
+EpithelialA.a	Glia.c	0.83077567725
+NeuronA.a	Glia.c	0.813689085
+Epithelial.c	Glia.s	0.863349893333333
+Excretory.c	Glia.s	0.882245913
+Glia.c	Glia.s	0.8327812465
+Hepatocyte.h	Hepatocyte.m	0.990978302666667
+Secretory.h	Hepatocyte.m	0.81783623947619
+Hepatocyte.m	Hepatocyte.z	0.927911968733333
+B cell.m	Immune.z	0.886588037435897
+Dendritic.m	Immune.z	0.91938645874359
+Macrophage.m	Immune.z	0.894582849346154
+Mast.m	Immune.z	0.881721936
+Monocyte.m	Immune.z	0.911686951
+Neutrophil.m	Immune.z	0.924167998326923
+T cell.m	Immune.z	0.887475537673077
+Dendritic.h	Macrophage.m	0.867844232333333
+Macrophage.h	Macrophage.m	0.882417743733333
+Monocyte.h	Macrophage.m	0.90539778325
+Neutrophil.h	Macrophage.m	0.800051601
+Centrocyte.h	Mast.m	0.809022315
+Monocyte.h	Mast.m	0.86816792
+Myeloid.h	Mast.m	0.843734817
+Neutrophil.h	Mast.m	0.836690405833333
+Centrocyte.h	Monocyte.m	0.849929607
+Dendritic.h	Monocyte.m	0.875855857
+Macrophage.h	Monocyte.m	0.8342882132
+Monocyte.h	Monocyte.m	0.93792308
+Myeloid.h	Monocyte.m	0.83685237975
+Neutrophil.h	Monocyte.m	0.883293970333333
+Muscle.z	Muscle1.a	0.856530142153846
+UnknownH.z	Muscle1.a	0.865030392
+Muscle1.a	Muscle.c	0.9238271085
+Muscle.h	Muscle.m	0.829069220911111
+Glia.s	Muscle.n	0.88336173
+Muscle.s	Muscle.n	0.95152907
+Muscle.c	Muscle.s	0.90874761775
+UnknownB.z	Neuron.a	0.882511979333333
+UnknownB.z	NeuronA.a	0.902958339
+Neuron.a	Neuron.c	0.93328778565
+NeuronA.a	Neuron.c	0.838335791
+Neuron.h	Neuron.m	0.932624429633333
+Neuron.s	Neuron.n	0.835295334625
+Pharynx.s	Neuron.n	0.809971071
+Excretory.c	Neuron.s	0.818102185125
+Glia.c	Neuron.s	0.8603615678125
+Neuron.c	Neuron.s	0.9423629238
+Pharynx.c	Neuron.s	0.841402607666667
+Neuron.m	Neuron.z	0.830677291574074
+Centrocyte.h	Neutrophil.m	0.85917052425
+Dendritic.h	Neutrophil.m	0.8252749975
+Monocyte.h	Neutrophil.m	0.9387333225
+Myeloid.h	Neutrophil.m	0.877530368375
+Neutrophil.h	Neutrophil.m	0.911230911416667
+T cell.h	Neutrophil.m	0.81047802375
+Excretory.c	Parenchymal.s	0.810500804166667
+Coelomocytes.c	Phagocytes.s	0.933153284
+Epithelial.c	Phagocytes.s	0.958098813333333
+Excretory.c	Phagocytes.s	0.939022999
+Glia.c	Phagocytes.s	0.867806242
+Epithelial.a	Pharynx.c	0.919690123222222
+DistalTip.c	Pharynx.s	0.829557906
+Excretory.c	Pharynx.s	0.918757299
+Glia.c	Pharynx.s	0.8920891225
+Neuron.c	Pharynx.s	0.8198283955
+Pharynx.c	Pharynx.s	0.812628128
+Proliferating.h	ProliferatingEpithelial.m	0.8283235755
+Secretory.h	ProliferatingEpithelial.m	0.844055457714286
+Secretory.h	Secretory.m	0.878426576885714
+Stromal.m	Stromal.z	0.81887031225
+Centrocyte.h	T cell.m	0.87396038825
+Monocyte.h	T cell.m	0.8863014855
+Myeloid.h	T cell.m	0.83422917575
+Plasmocyte.h	T cell.m	0.804353948625
+T cell.h	T cell.m	0.91017318775
+Endothelial.m	UnknownH.z	0.8889155285

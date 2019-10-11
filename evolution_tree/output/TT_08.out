@@ -1,0 +1,77 @@
+Sub_Cluster1	Sub_Cluster2	Value
+B cell.m	UnknownH.z	0.886588037435897
+Centrocyte.h	T cell.m	0.894062667666667
+Coelomocytes.c	Secretory.s	0.933153284
+Cumulus.m	UnknownH.z	0.684630254916667
+Dendritic.h	T cell.m	0.875855857
+Dendritic.m	UnknownH.z	0.91938645874359
+DistalTip.c	Secretory.s	0.829557906
+Endothelial.h	T cell.m	0.816539545178571
+Endothelial.m	UnknownH.z	0.9376274325
+Endothelial.z	Proliferating.a	0.780906751166667
+Epithelial.a	Proliferating.c	0.919690123222222
+EpithelialA.a	Proliferating.c	0.83077567725
+Epithelial.c	Secretory.s	0.958098813333333
+Epithelial.h	T cell.m	0.810965114011364
+Epithelial.m	UnknownH.z	0.742923137545455
+Epithelial.s	Secretory.n	0.7323678185
+Epithelial.z	Proliferating.a	0.609153952433333
+Erythroid.h	T cell.m	0.8734860440625
+Erythroid.m	UnknownH.z	0.856181083083333
+Erythroid.z	Proliferating.a	0.641469656333333
+Excretory.c	Secretory.s	0.939022999
+Excretory.s	Secretory.n	0.891140257
+Glia.c	Secretory.s	0.8920891225
+Glia.s	Secretory.n	0.88336173
+Hepatocyte.h	T cell.m	0.990978302666667
+Hepatocyte.m	UnknownH.z	0.927911968733333
+Hepatocyte.z	Proliferating.a	0.66487077175
+Immune.z	Proliferating.a	0.770824266326923
+Macrophage.h	T cell.m	0.882417743733333
+Macrophage.m	UnknownH.z	0.894582849346154
+Mast.h	T cell.m	0.7443259075
+Mast.m	UnknownH.z	0.881721936
+Mesenchyme.a	Proliferating.c	0.571407483962963
+MesenchymeA.a	Proliferating.c	0.62907497425
+Monocyte.h	T cell.m	0.9387333225
+Monocyte.m	UnknownH.z	0.911686951
+Muscle1.a	Proliferating.c	0.9238271085
+Muscle.a	Proliferating.c	0.769825484
+Muscle.c	Secretory.s	0.90874761775
+Muscle.h	T cell.m	0.829069220911111
+Muscle.m	UnknownH.z	0.754588236940171
+Muscle.s	Secretory.n	0.95152907
+Muscle.z	Proliferating.a	0.856530142153846
+Myeloid.h	T cell.m	0.877530368375
+Neuron.a	Proliferating.c	0.93328778565
+NeuronA.a	Proliferating.c	0.838335791
+Neuron.c	Secretory.s	0.9423629238
+Neuron.h	T cell.m	0.932624429633333
+Neuron.m	UnknownH.z	0.830677291574074
+Neuron.s	Secretory.n	0.835295334625
+Neuron.z	Proliferating.a	0.780487641231482
+Neutrophil.h	T cell.m	0.911230911416667
+Neutrophil.m	UnknownH.z	0.924167998326923
+Parenchymal.s	Secretory.n	0.859939579333333
+Phagocytes.s	Secretory.n	0.941300447
+Pharynx.c	Secretory.s	0.841402607666667
+Pharynx.s	Secretory.n	0.901407635
+Plasmocyte.h	T cell.m	0.849057921833333
+Proliferating.a	Proliferating.c	0.740263782933333
+Proliferating.c	Secretory.s	0.687650486608696
+ProliferatingEpithelial.m	UnknownH.z	0.7277992905
+Proliferating.h	T cell.m	0.8283235755
+Proliferating.m	UnknownH.z	0.62468134102381
+Proliferating.s	Secretory.n	0.710506755304348
+Proliferating.z	Proliferating.a	0.674254423055555
+Secretory.h	T cell.m	0.878426576885714
+Secretory.m	UnknownH.z	0.7501879583
+Secretory.s	Secretory.n	0.7687902626
+Secretory.z	Proliferating.a	0.7108055608
+Stromal.h	T cell.m	0.76849942141875
+Stromal.m	UnknownH.z	0.81887031225
+Stromal.z	Proliferating.a	0.649503438944444
+T cell.h	T cell.m	0.91017318775
+T cell.m	UnknownH.z	0.887475537673077
+UnknownB.z	Proliferating.a	0.902958339
+UnknownH.z	Proliferating.a	0.865030392

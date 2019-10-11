@@ -64,7 +64,6 @@ anno_Cor_file <- function(total_celltype_df, anno_info_fname){
     print(str(anno_celltype_df))
   }
 
-  #为什么类型转回matrix
   anno_celltype_mat<-as.matrix(anno_celltype_df)
   return(anno_celltype_mat)
 }
@@ -101,6 +100,10 @@ delete_celltype <- function(rearranged_celltype_mat, delete_list){
 # counting average_value of Sub_Cluster1 and Sub_Cluster2
 # set average_value_celltype_mat > 0.8 as blackground
 # counting MAX average_value of sub_cluster1
+class_class_similarity_counting_perl <- function(){
+  system("perl 5_Class_Class.similarity.pl")
+  system("perl 6_max_add.pl")
+}
 class_class_similarity_counting <- function(rearranged_celltype_mat){
   #####class_class_similarity
   rearranged_celltype_mat <- as.data.frame(rearranged_celltype_mat, stringsAsFactors=FALSE)
@@ -123,21 +126,36 @@ class_class_similarity_counting <- function(rearranged_celltype_mat){
                   FUN=max, na.rm=TRUE, drop=FALSE)
   max_aveVal_celltype <- max_aveVal_celltype[,c(2,3,4)]
   
-  ##total celltype anno_info of
-  ##average_value{sub_cluster1}{sub_cluster2} > 0.8 OR MAX average_value of {sub_cluster1}
-  max_rearranged_celltype <- aggregate(rearranged_celltype_mat,
-                    by=list(rearranged_celltype_mat[,3], rearranged_celltype_mat[,6]),
-                    FUN=max, na.rm=TRUE, drop=FALSE)
-  max_rearranged_celltype <- na.omit(max_rearranged_celltype)
-  max_rearranged_celltype <- max_rearranged_celltype[,c(-1,-2)]
-  
   #use pasted cluster name as index
-  rownames(max_rearranged_celltype) <- paste(max_rearranged_celltype$Sub_Cluster1, max_rearranged_celltype$Sub_Cluster2, sep="")
-  blackground_key <- paste(blackground_aveVal_celltype$Sub_Cluster1, blackground_aveVal_celltype$Sub_Cluster2, sep="")
-  max_key <- paste(max_aveVal_celltype$Sub_Cluster1, max_aveVal_celltype$Sub_Cluster2, sep="")
-  max_black_celltype <- max_rearranged_celltype[union(blackground_key, max_key),]
-  rownames(max_black_celltype)<-NULL
+  select <- rearranged_celltype_mat[,c('Sub_Cluster1', 'Sub_Cluster2')]
+  blackground <- blackground_aveVal_celltype[,c('Sub_Cluster1', 'Sub_Cluster2')]
+  max_df <- max_aveVal_celltype[,c('Sub_Cluster1', 'Sub_Cluster2')]
+  select$key <- paste(rearranged_celltype_mat$Sub_Cluster1, rearranged_celltype_mat$Sub_Cluster2, sep="_")
+  blackground$key <- paste(blackground_aveVal_celltype$Sub_Cluster1, blackground_aveVal_celltype$Sub_Cluster2, sep="_")
+  max_df$key <- paste(max_aveVal_celltype$Sub_Cluster1, max_aveVal_celltype$Sub_Cluster2, sep="_")
+  #selected <- union(which(select$key %in% blackground$key), 
+  #                  which(select$key %in% max_df$key))
+  selected <- NULL
+  for(key in blackground$key){
+    selected <- union(selected, which(select$key == key))
+  }
+  for(key in max_df$key){
+    selected <- union(selected, which(max_df$key== key))
+  }
+  #max_black_celltype <- rearranged_celltype_mat[which(rearranged_celltype_mat$select==union(blackground_key, max_key)),]
+  #rownames(max_black_celltype)<-NULL
+  ## total celltype anno_info of
+  ## average_value{sub_cluster1}{sub_cluster2} > 0.8 OR MAX average_value of {sub_cluster1}
+  max_black_celltype <- rearranged_celltype_mat[selected,]
+  max_black_celltype <- aggregate(max_black_celltype,
+                    by=list(max_black_celltype[,1]),
+                    FUN=max, na.rm=TRUE, drop=FALSE)
+  max_black_celltype <- na.omit(max_black_celltype)
+  max_black_celltype <- max_black_celltype[,-1]
+  #max_aveVal_celltype <- max_aveVal_celltype[,-4]
+  #blackground_aveVal_celltype <- blackground_aveVal_celltype[,-4]
   
+
   if (CHECK_POINT){
     message("average_value_celltype_mat:")
     print(str(average_value_celltype_mat))
@@ -207,10 +225,15 @@ merge_celltype_pipeline <- function(fname_vector, arranged_species_name_vector, 
   if (!is.null(delete_list)){
     rearranged_anno_total_celltype_mat <- delete_celltype(rearranged_anno_total_celltype_mat, delete_list)
   }
+  
   ## delete the duplicated rows
-  rearranged_anno_total_celltype_mat <- rearranged_anno_total_celltype_mat[duplicated(rearranged_anno_total_celltype_mat),]
-  #class_similarity_counting_result <- list(average_value_celltype_mat, blackground_aveVal_celltype, max_aveVal_celltype, max_black_celltype) 
+  ##
+  rearranged_anno_total_celltype_mat <- rearranged_anno_total_celltype_mat[!duplicated(rearranged_anno_total_celltype_mat[,c(1,2,3,4,5,6)]),]
+  write.table(rearranged_anno_total_celltype_mat, file="Total_dup_species.Cor.ann_subcluster.sort_1.filter.txt",sep="\t", row.names=FALSE, quote=F)
+  
+  # class_similarity_counting_result <- list(average_value_celltype_mat, blackground_aveVal_celltype, max_aveVal_celltype, max_black_celltype) 
   class_similarity_counting_result <- class_class_similarity_counting(rearranged_anno_total_celltype_mat)
+  
   
   if (!is.null(root_fname)){
     root <- read.table(root_fname, sep='\t')
@@ -221,7 +244,7 @@ merge_celltype_pipeline <- function(fname_vector, arranged_species_name_vector, 
   
   if (CHECK_POINT){
       #check point
-      write.table(class_similarity_counting_result[[1]], file="Total_dup_species.subclass.Cor.txt",
+      write.table(class_similarity_counting_result[[1]], file="Total_dup_species.subclass_1.Cor.txt",
                   sep="\t", row.names=FALSE, quote=F)
       write.table(class_similarity_counting_result[[2]], file="TT_08_1.out",
                   sep="\t", row.names=FALSE, quote=F)
@@ -232,6 +255,8 @@ merge_celltype_pipeline <- function(fname_vector, arranged_species_name_vector, 
   }else{
     return(class_similarity_counting_result)
   }
+  
+  class_class_similarity_counting_perl()
 }
   
 
@@ -241,10 +266,7 @@ test_merge_celltype_pipeline <- function(){
   fname_vector <- c("/home/ggj/jiaqiLi/dev/R_dev/JiaQi/H_M/ensemble/AddFat2/celltype.NV_SRS_75.out",
     "/home/ggj/jiaqiLi/dev/R_dev/JiaQi/M_Z/AddAdipose/M_adult/celltype.NV_SRS_75.out",
     "/home/ggj/jiaqiLi/dev/R_dev/JiaQi/M_Z/AddAdipose/M_larvea/celltype.NV_SRS_75.out",
-    "/home/ggj/jiaqiLi/dev/R_dev/JiaQi/M_Z/AddAdipose/celltype.NV_SRS_75.out",
     "/home/ggj/jiaqiLi/dev/R_dev/JiaQi/Z_SS/celltype.NV_SRS_75-total.out",
-    "/home/ggj/jiaqiLi/dev/R_dev/JiaQi/Z_SS/Adult/celltype.NV_SRS_75-total.out",
-    "/home/ggj/jiaqiLi/dev/R_dev/JiaQi/Z_SS/Fetal/celltype.NV_SRS_75-total.out",
     "/home/ggj/jiaqiLi/dev/R_dev/JiaQi/SS_C/celltype.NV_SRS_75-total.out",
     "/home/ggj/jiaqiLi/dev/R_dev/JiaQi/C_S/celltype.NV_SRS_75.out",
     "/home/ggj/jiaqiLi/dev/R_dev/JiaQi/S_N/celltype.NV_SRS_75.out")
@@ -263,10 +285,10 @@ test_merge_celltype_pipeline <- function(){
   
   delete_list = c("TNFalpha cells(H).z", "sst1.1 cells(P).z", "Apelin cells(H).z", "Apelin cells(P).z", 
                   "Testicular cell.m", "Prostate gland cell.m", "Luteal cell.m", 
-                  "Mammary gland in lactation.m", "Corneal cells.lz", "Ciona31", "Trophoblast progenitor cell.m", 
-                  "Unknown(H).z", "Unknown(B).z")
+                  "Mammary gland in lactation.m", "Corneal cells.lz", "Ciona31", "Trophoblast progenitor cell.m")
+                  #"Unknown(H).z", "Unknown(B).z")
   
-  root_fname = "/home/ggj/jiaqiLi/dev/R_dev/script/root.txt"
+  # root_fname = "/home/ggj/jiaqiLi/dev/R_dev/script/evolution_tree/data/root.txt"
   
   # print and save all the tmp file
   merge_celltype_pipeline(fname_vector, arranged_species_name_vector, anno_info_fname, root_fname,

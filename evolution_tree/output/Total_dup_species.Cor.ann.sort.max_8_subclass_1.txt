@@ -1,0 +1,425 @@
+CellType1	Species1	Cluster1	CellType2	Species2	Cluster2	Mean_AUROC
+Endothelial cell A.m	Mouse	Endothelial.m	Endothelial cells.lz	Zebrafish	Endothelial.z	0.995692199
+Chondrocytes B.h	Human	Stromal.h	Chondrocyte D.m	Mouse	Stromal.m	0.979807513
+neural progenitors.s	Schmidtea	Proliferating.s	Precursorsan.n	Nematostella	Proliferating.n	0.424372835
+Intestine.c	Celegans	Epithelial.c	phagocytes.s	Schmidtea	Phagocytes.s	0.909016666
+Premeiotic germ cell.m	Mouse	Proliferating.m	Neurons B (Proliferating).lz	Zebrafish	Proliferating.z	0.954029391
+Undifferentiated mesodermal cells.lz	Zebrafish	Proliferating.z	Ciona33	SeaSquirts	Proliferating.a	0.827473687
+Epidermal cells A.lz	Zebrafish	Epithelial.z	Ciona17	SeaSquirts	Mesenchyme.a	0.872996663
+Oxygen sensory neurons.c	Celegans	Neuron.c	GABA neurons.s	Schmidtea	Neuron.s	0.97464567
+Neuronal precursors A.lz	Zebrafish	Proliferating.z	Ciona35	SeaSquirts	Proliferating.a	0.925527943
+Cholinergic neurons.c	Celegans	Neuron.c	ChAT neurons 1.s	Schmidtea	Neuron.s	0.971250694
+Myeloid cell B.h	Human	Myeloid.h	Neutrophil A.m	Mouse	Neutrophil.m	0.937549108
+psap+ parenchymal cells.s	Schmidtea	Parenchymal.s	Gastrodermisan.n	Nematostella	Gastrodermis.n	0.936804879
+Erythrocyte A.m	Mouse	Erythroid.m	Erythrocytes A.lz	Zebrafish	Erythroid.z	0.98771108
+Endocrine epithelial.h	Human	Endothelial.h	Endothelial cell B.m	Mouse	Endothelial.m	0.375670919
+Neutrophil E.h	Human	Neutrophil.h	Neutrophil C.m	Mouse	Neutrophil.m	0.995123801
+T cell A.h	Human	T cell.h	B cell A.m	Mouse	B cell.m	0.935004953
+Epithelial cells (Fin).lz	Zebrafish	Epithelial.z	Ciona27	SeaSquirts	Mesenchyme.a	0.805653823
+Excretory cells.c	Celegans	Excretory.c	aqp+ parenchymal cells.s	Schmidtea	Parenchymal.s	0.976197352
+Fibroblasts A.lz	Zebrafish	Stromal.z	Ciona33	SeaSquirts	Proliferating.a	0.903314275
+Neurons (CNS)(B).z	Zebrafish	Neuron.z	Ciona18	SeaSquirts	Neuron.a	0.999089277
+Stromal cell A.m	Mouse	Stromal.m	Fibroblasts (Liver)(P).z	Zebrafish	Stromal.z	0.93529456
+Chondrocyte B.m	Mouse	Stromal.m	Chondrocytes C.lz	Zebrafish	Stromal.z	0.949283167
+Dopaminergic neurons.c	Celegans	Neuron.c	cav-1+ neurons.s	Schmidtea	Neuron.s	0.981036914
+Unknown(B).z	Zebrafish	UnknownB.z	Ciona13	SeaSquirts	NeuronA.a	0.938699829
+Pigment cells (Iridophores).lz	Zebrafish	Epithelial.z	Ciona27	SeaSquirts	Mesenchyme.a	0.772766244
+Monocyte B.m	Mouse	Monocyte.m	Macrophages.lz	Zebrafish	Immune.z	0.905790271
+Enterocyte A.h	Human	Epithelial.h	Gastric epithelial cell.m	Mouse	Epithelial.m	0.992699614
+neoblast 8.s	Schmidtea	Proliferating.s	Precursorsan.n	Nematostella	Proliferating.n	0.760798491
+Ciona28	SeaSquirts	Mesenchyme.a	Rectum.c	Celegans	Epithelial.c	0.538159894
+Ciona23	SeaSquirts	Mesenchyme.a	Non-seam hypodermis.c	Celegans	Epithelial.c	0.68204743
+Macrophage B.m	Mouse	Macrophage.m	Macrophages.lz	Zebrafish	Immune.z	0.994337412
+Adipocyte.m	Mouse	Muscle.m	Skeletal muscle cells B.lz	Zebrafish	Muscle.z	0.970858197
+Dendritic cell D.m	Mouse	Dendritic.m	Macrophages.lz	Zebrafish	Immune.z	0.986725192
+neoblast 1.s	Schmidtea	Proliferating.s	Precursorsan.n	Nematostella	Proliferating.n	0.846635921
+Endothelial cell C.h	Human	Endothelial.h	Endothelial cell A.m	Mouse	Endothelial.m	0.894575093
+Neuron D.h	Human	Neuron.h	Oligodendrocyte A.m	Mouse	Neuron.m	0.992005067
+neoblast 11.s	Schmidtea	Proliferating.s	Precursorsan.n	Nematostella	Proliferating.n	0.737767224
+epidermal neoblasts.s	Schmidtea	Proliferating.s	Precursorsan.n	Nematostella	Proliferating.n	0.698536456
+Ciona35	SeaSquirts	Proliferating.a	Somatic gonad precursors.c	Celegans	Proliferating.c	0.892061827
+Epidermal cells D.lz	Zebrafish	Epithelial.z	Ciona23	SeaSquirts	Mesenchyme.a	0.875159782
+Mast cell.m	Mouse	Mast.m	Granulocytes(P).z	Zebrafish	Immune.z	0.915996161
+Gastric Endocrine cell.h	Human	Secretory.h	Gastric epithelial cell.m	Mouse	Epithelial.m	0.974731601
+Satellite cells.lz	Zebrafish	Proliferating.z	Ciona33	SeaSquirts	Proliferating.a	0.870571943
+Astrocyte.m	Mouse	Neuron.m	Retinal cells B.lz	Zebrafish	Neuron.z	0.98983821
+Chondrocyte C.m	Mouse	Stromal.m	Chondrocytes C.lz	Zebrafish	Stromal.z	0.972805664
+Hepatocyte A.m	Mouse	Hepatocyte.m	Hepatocytes A.lz	Zebrafish	Hepatocyte.z	0.992977608
+gut progenitors.s	Schmidtea	Proliferating.s	Precursorsan.n	Nematostella	Proliferating.n	0.773816732
+epidermis.s	Schmidtea	Epithelial.s	Dig_filamentsan.n	Nematostella	DigFilaments.n	0.941681379
+glia.s	Schmidtea	Glia.s	Musclean.n	Nematostella	Muscle.n	0.88336173
+Gastric epithelial cell.m	Mouse	Epithelial.m	Epidermal cells A.lz	Zebrafish	Epithelial.z	0.984315721
+Fasciculata cell B.h	Human	Stromal.h	Chondrocyte A.m	Mouse	Stromal.m	0.836787922
+Smooth muscle B.lz	Zebrafish	Muscle.z	Ciona8	SeaSquirts	Muscle1.a	0.911826301
+Ciona12	SeaSquirts	Epithelial.a	Pharyngeal epithelia.c	Celegans	Pharynx.c	0.987149673
+Skeletal muscle cells B.lz	Zebrafish	Muscle.z	Ciona8	SeaSquirts	Muscle1.a	0.942832744
+Stromal cell D.h	Human	Stromal.h	Stromal cell C.m	Mouse	Stromal.m	0.964934128
+Cardiomyocytes (Ventricle)(H).z	Zebrafish	Muscle.z	Ciona8	SeaSquirts	Muscle1.a	0.992120025
+Peripheral Neurons(P).z	Zebrafish	Neuron.z	Ciona16	SeaSquirts	Neuron.a	0.94802408
+Pancreas endocrine cells (beta)(P).z	Zebrafish	Secretory.z	Ciona13	SeaSquirts	NeuronA.a	0.918310627
+Intestinal cells B (Exocrine).lz	Zebrafish	Secretory.z	Ciona13	SeaSquirts	NeuronA.a	0.434967362
+Hepatocyte B.m	Mouse	Hepatocyte.m	Hepatocytes A.lz	Zebrafish	Hepatocyte.z	0.994919582
+Neuronal precursors B.lz	Zebrafish	Proliferating.z	Ciona35	SeaSquirts	Proliferating.a	0.786202533
+Ciona19	SeaSquirts	Neuron.a	Oxygen sensory neurons.c	Celegans	Neuron.c	0.97752398
+Retinal pigment epithelial cells.lz	Zebrafish	Epithelial.z	Ciona23	SeaSquirts	Mesenchyme.a	0.766250809
+Distal tip cells.c	Celegans	DistalTip.c	pharynx cell type.s	Schmidtea	Pharynx.s	0.829557906
+Ciona5	SeaSquirts	Proliferating.a	Germline.c	Celegans	Proliferating.c	0.875499802
+Endocrine cell.h	Human	Secretory.h	Pancreatic endocrine cell.m	Mouse	Secretory.m	0.980734472
+Keratinocytes A.lz	Zebrafish	Epithelial.z	Ciona27	SeaSquirts	Mesenchyme.a	0.923406806
+Erythroblast.m	Mouse	Erythroid.m	Erythrocytes A.lz	Zebrafish	Erythroid.z	0.96847315
+Undifferentiated cells(P).z	Zebrafish	Proliferating.z	Ciona5	SeaSquirts	Proliferating.a	0.623518308
+Stromal cell A.h	Human	Stromal.h	Stromal cell D.m	Mouse	Stromal.m	0.988127898
+S-shaped body cell.h	Human	Proliferating.h	Proliferating epithelial cell.m	Mouse	ProliferatingEpithelial.m	0.93309917
+Smooth muscle cell A.h	Human	Muscle.h	Smooth muscle cell A.m	Mouse	Muscle.m	0.980149524
+CD8 T cell B.h	Human	T cell.h	T cell A.m	Mouse	T cell.m	0.968488061
+Neutrophil D.m	Mouse	Neutrophil.m	Granulocytes(P).z	Zebrafish	Immune.z	0.909928856
+Endothelial cells (Blood vessel)(H).z	Zebrafish	Endothelial.z	Ciona9	SeaSquirts	Epithelial.a	0.920233125
+Smooth muscle cell C.m	Mouse	Muscle.m	Smooth muscle cells A (Vasculature).lz	Zebrafish	Muscle.z	0.853471213
+Granulocytes(H).z	Zebrafish	Immune.z	Ciona21	SeaSquirts	MesenchymeA.a	0.916746048
+Stratified epithelial cell.h	Human	Epithelial.h	Gastric epithelial cell.m	Mouse	Epithelial.m	0.92357657
+M2 Macrophage A.m	Mouse	Macrophage.m	Macrophages.lz	Zebrafish	Immune.z	0.974527742
+Neuron A.m	Mouse	Neuron.m	Neurons (CNS)(B).z	Zebrafish	Neuron.z	0.966913872
+Pancreas exocrine cell.h	Human	Secretory.h	Pancreatic acinar cell B.m	Mouse	Secretory.m	0.955120257
+B cel (centrocyte).m	Mouse	B cell.m	Lymphocytes A.lz	Zebrafish	Immune.z	0.967851795
+Body wall muscle.c	Celegans	Muscle.c	muscle body.s	Schmidtea	Muscle.s	0.983448069
+Fibroblast D.m	Mouse	Stromal.m	Fibroblasts (Liver)(P).z	Zebrafish	Stromal.z	0.988853451
+Monocyte A.m	Mouse	Monocyte.m	Neutrophils.lz	Zebrafish	Immune.z	0.982145018
+Unknown1/Endothelial.h	Human	Endothelial.h	Endothelial cell A.m	Mouse	Endothelial.m	0.972714091
+Ciona11	SeaSquirts	NeuronA.a	Ciliated sensory neurons.c	Celegans	Neuron.c	0.965566676
+Erythrocyte C.h	Human	Erythroid.h	Erythrocyte B.m	Mouse	Erythroid.m	0.94065641
+cav-1+ neurons.s	Schmidtea	Neuron.s	Neuronan.n	Nematostella	Neuron.n	0.899306909
+Sertoli cell.m	Mouse	Stromal.m	Chondrocytes D.lz	Zebrafish	Stromal.z	0.694356014
+Muscle cells (Pectoral fin).lz	Zebrafish	Muscle.z	Ciona8	SeaSquirts	Muscle1.a	0.298386765
+Ventricle Cardiomyocyte A.h	Human	Muscle.h	Skeletal muscle cell A.m	Mouse	Muscle.m	0.994657164
+Sex myoblasts.c	Celegans	Proliferating.c	neoblast 1.s	Schmidtea	Proliferating.s	0.82553886
+Stromal cell B.h	Human	Stromal.h	Chondrocyte A.m	Mouse	Stromal.m	0.912331871
+Macrophage E.h	Human	Macrophage.h	Macrophage B.m	Mouse	Macrophage.m	0.959800354
+Smooth muscle cell A.m	Mouse	Muscle.m	Smooth muscle cells A (Vasculature).lz	Zebrafish	Muscle.z	0.970238108
+Erythrocyte B.m	Mouse	Erythroid.m	Erythrocytes A.lz	Zebrafish	Erythroid.z	0.725389372
+neoblast 4.s	Schmidtea	Proliferating.s	Precursorsan.n	Nematostella	Proliferating.n	0.646317218
+CD8 T cell A.h	Human	T cell.h	Cd8 T cell.m	Mouse	T cell.m	0.983735516
+Cone cells.lz	Zebrafish	Neuron.z	Ciona19	SeaSquirts	Neuron.a	0.882319475
+Endothelial cells (lymph)(P).z	Zebrafish	Endothelial.z	Ciona10	SeaSquirts	Epithelial.a	0.880765909
+Pancreas endocrine cells (epsilon)(P).z	Zebrafish	Secretory.z	Ciona13	SeaSquirts	NeuronA.a	0.726727523
+Macrophage A.m	Mouse	Macrophage.m	Macrophages(P).z	Zebrafish	Immune.z	0.956812471
+Hofbauer cell.h	Human	Macrophage.h	Macrophage B.m	Mouse	Macrophage.m	0.892362995
+Ciona10	SeaSquirts	Epithelial.a	Pharyngeal epithelia.c	Celegans	Pharynx.c	0.949161052
+Hepatocytes B.lz	Zebrafish	Hepatocyte.z	Ciona7	SeaSquirts	MesenchymeA.a	0.788246626
+Intestinal/rectal muscle.c	Celegans	Muscle.c	muscle pharynx.s	Schmidtea	Muscle.s	0.847404042
+Microglia(B).z	Zebrafish	Immune.z	Ciona21	SeaSquirts	MesenchymeA.a	0.938897022
+Endothelial cell D.h	Human	Endothelial.h	Endothelial cell C.m	Mouse	Endothelial.m	0.985725617
+Epithelial cells (Otic vesicle).lz	Zebrafish	Epithelial.z	Ciona4	SeaSquirts	Mesenchyme.a	0.599719324
+Hepatocyte C.m	Mouse	Hepatocyte.m	Hepatocytes A.lz	Zebrafish	Hepatocyte.z	0.980613496
+pharynx cell type progenitors.s	Schmidtea	Proliferating.s	Precursorsan.n	Nematostella	Proliferating.n	0.657772015
+Proliferating epithelial cell.m	Mouse	ProliferatingEpithelial.m	Neuronal precursors A.lz	Zebrafish	Proliferating.z	0.881383749
+ChAT neurons 2.s	Schmidtea	Neuron.s	Neuronan.n	Nematostella	Neuron.n	0.897608706
+otf+ cells 1.s	Schmidtea	Neuron.s	Neuronan.n	Nematostella	Neuron.n	0.785498697
+Fibroblast C.h	Human	Stromal.h	Stromal cell C.m	Mouse	Stromal.m	0.989215841
+Epithelial cell D.h	Human	Epithelial.h	Gastric epithelial cell.m	Mouse	Epithelial.m	0.955357932
+Radial glia B.lz	Zebrafish	Neuron.z	Ciona22	SeaSquirts	Neuron.a	0.721537562
+Ciona29	SeaSquirts	Neuron.a	Cholinergic neurons.c	Celegans	Neuron.c	0.967345206
+Epithelial cells (Mucosa).lz	Zebrafish	Epithelial.z	Ciona17	SeaSquirts	Mesenchyme.a	0.824368851
+Granulocytes(P).z	Zebrafish	Immune.z	Ciona21	SeaSquirts	MesenchymeA.a	0.964897499
+Retinal cells A.lz	Zebrafish	Neuron.z	Ciona18	SeaSquirts	Neuron.a	0.923491516
+Microglia A.h	Human	Macrophage.h	Macrophage C.m	Mouse	Macrophage.m	0.97014759
+Epidermal precursors.lz	Zebrafish	Epithelial.z	Ciona17	SeaSquirts	Mesenchyme.a	0.886771692
+Ciona18	SeaSquirts	Neuron.a	Cholinergic neurons.c	Celegans	Neuron.c	0.984591097
+Fibroblast C.m	Mouse	Stromal.m	Fibroblasts (Liver)(P).z	Zebrafish	Stromal.z	0.976126398
+neoblast 3.s	Schmidtea	Proliferating.s	Precursorsan.n	Nematostella	Proliferating.n	0.670713919
+Neurons A (Brain).lz	Zebrafish	Neuron.z	Ciona18	SeaSquirts	Neuron.a	0.94746155
+Smooth muscle cell B.m	Mouse	Muscle.m	Smooth muscle cells A (Vasculature).lz	Zebrafish	Muscle.z	0.945667842
+Chondrocytes C.lz	Zebrafish	Stromal.z	Ciona35	SeaSquirts	Proliferating.a	0.800098047
+T cell B.h	Human	T cell.h	Cd8 T cell.m	Mouse	T cell.m	0.985418165
+Seam cells.c	Celegans	Proliferating.c	activated early epidermal progenitors.s	Schmidtea	Proliferating.s	0.866991261
+Ciona25	SeaSquirts	MesenchymeA.a	Coelomocytes.c	Celegans	Coelomocytes.c	0.499162242
+Ciona8	SeaSquirts	Muscle1.a	Body wall muscle.c	Celegans	Muscle.c	0.997247504
+Neutrophil C.h	Human	Neutrophil.h	Neutrophil C.m	Mouse	Neutrophil.m	0.984322831
+Osteoblasts.lz	Zebrafish	Stromal.z	Ciona35	SeaSquirts	Proliferating.a	0.583838191
+Lymphocytes B.lz	Zebrafish	Immune.z	Ciona21	SeaSquirts	MesenchymeA.a	0.743596162
+Macrophages(P).z	Zebrafish	Immune.z	Ciona21	SeaSquirts	MesenchymeA.a	0.955626397
+Rectum.c	Celegans	Epithelial.c	phagocytes.s	Schmidtea	Phagocytes.s	0.984921
+Epithelial cell C.h	Human	Epithelial.h	Gastric epithelial cell.m	Mouse	Epithelial.m	0.823015413
+pharynx cell type.s	Schmidtea	Pharynx.s	Dig_filamentsan.n	Nematostella	DigFilaments.n	0.901407635
+Fasciculata cell A.h	Human	Stromal.h	Kidney stromal cell.m	Mouse	Stromal.m	0.670404078
+Cumulus cell.m	Mouse	Cumulus.m	Fibroblasts (Heart)(H).z	Zebrafish	Stromal.z	0.805429936
+Spongiotrophoblast.m	Mouse	Proliferating.m	Undifferentiated mesodermal cells.lz	Zebrafish	Proliferating.z	0.464160746
+Neurons B (Proliferating).lz	Zebrafish	Proliferating.z	Ciona35	SeaSquirts	Proliferating.a	0.908547148
+Fibroblast B.h	Human	Stromal.h	Stromal cell C.m	Mouse	Stromal.m	0.955069073
+pgrn+ parenchymal cells.s	Schmidtea	Parenchymal.s	Gastrodermisan.n	Nematostella	Gastrodermis.n	0.954751888
+Endothelial cell C.m	Mouse	Endothelial.m	Endothelial cells.lz	Zebrafish	Endothelial.z	0.994188447
+Neutrophil B.m	Mouse	Neutrophil.m	Lymphocytes A.lz	Zebrafish	Immune.z	0.92952876
+Lymphocytes A.lz	Zebrafish	Immune.z	Ciona25	SeaSquirts	MesenchymeA.a	0.792131702
+late epidermal progenitors 1.s	Schmidtea	Proliferating.s	Precursorsan.n	Nematostella	Proliferating.n	0.484296954
+secretory 2.s	Schmidtea	Secretory.s	Cnidocytean.n	Nematostella	Cnidocytean.n	0.711690097
+Oligodendrocyte.m	Mouse	Neuron.m	Glial cells (Peripheral).lz	Zebrafish	Neuron.z	0.93407819
+Ventricle cardiomyocyte B.h	Human	Muscle.h	Smooth muscle cell B.m	Mouse	Muscle.m	0.988060672
+Hepatocytes A(P).z	Zebrafish	Hepatocyte.z	Ciona21	SeaSquirts	MesenchymeA.a	0.964252534
+Ciona26	SeaSquirts	Muscle.a	Body wall muscle.c	Celegans	Muscle.c	0.862496521
+Proliferating cell C.m	Mouse	Proliferating.m	Neurons B (Proliferating).lz	Zebrafish	Proliferating.z	0.899441283
+Microglia B.h	Human	Macrophage.h	Macrophage C.m	Mouse	Macrophage.m	0.935381154
+Dendritic cell .m	Mouse	Dendritic.m	Neutrophils.lz	Zebrafish	Immune.z	0.96251006
+Endocardial cells(H).z	Zebrafish	Endothelial.z	Ciona10	SeaSquirts	Epithelial.a	0.890447594
+neoblast 12.s	Schmidtea	Proliferating.s	Precursorsan.n	Nematostella	Proliferating.n	0.8734956
+Pancreas endocrine cells (gip)(P).z	Zebrafish	Secretory.z	Ciona11	SeaSquirts	NeuronA.a	0.911761398
+Enterocyte  C.h	Human	Epithelial.h	Intestinal epithelial cell.m	Mouse	Epithelial.m	0.968693627
+Fibroblast D.h	Human	Stromal.h	Fibroblast C.m	Mouse	Stromal.m	0.967515862
+Acinar cell B.h	Human	Secretory.h	Pancreatic endocrine cell.m	Mouse	Secretory.m	0.944831123
+Fibroblast H.h	Human	Stromal.h	Sertoli cell.m	Mouse	Stromal.m	0.92761784
+Ciona14	SeaSquirts	EpithelialA.a	Am/PH sheath cells.c	Celegans	Glia.c	0.937870643
+phagocytes.s	Schmidtea	Phagocytes.s	Gastrodermisan.n	Nematostella	Gastrodermis.n	0.941300447
+Stromal cell C.h	Human	Stromal.h	Stromal cell C.m	Mouse	Stromal.m	0.991531312
+Socket cells.c	Celegans	Glia.c	pharynx cell type.s	Schmidtea	Pharynx.s	0.958880984
+Smooth muscle cell D.m	Mouse	Muscle.m	Smooth muscle cells B (Endocrine pancreas)(P).z	Zebrafish	Muscle.z	0.916941695
+ldlrr-1+ parenchymal cells.s	Schmidtea	Parenchymal.s	Gastrodermisan.n	Nematostella	Gastrodermis.n	0.882843073
+Cd8 T cell.m	Mouse	T cell.m	Lymphocytes A.lz	Zebrafish	Immune.z	0.989453006
+Erythrocytes(H).z	Zebrafish	Erythroid.z	Ciona8	SeaSquirts	Muscle1.a	0.952085027
+Neuromast cells.lz	Zebrafish	Neuron.z	Ciona6	SeaSquirts	Neuron.a	0.620116465
+Goblet cell.m	Mouse	Secretory.m	Pancreas duct epithelial cells(P).z	Zebrafish	Secretory.z	0.980309666
+Pharyngeal neurons.c	Celegans	Neuron.c	ChAT neurons 1.s	Schmidtea	Neuron.s	0.963076314
+Macrophage B.h	Human	Macrophage.h	Macrophage B.m	Mouse	Macrophage.m	0.933519719
+Erythroid Progenitor.h	Human	Erythroid.h	Erythrocyte C.m	Mouse	Erythroid.m	0.986978086
+Ciona27	SeaSquirts	Mesenchyme.a	Intestine.c	Celegans	Epithelial.c	0.503042995
+Neuron (Chromaffin cell).h	Human	Neuron.h	Oligodendrocyte A.m	Mouse	Neuron.m	0.993534639
+Ciona3	SeaSquirts	Mesenchyme.a	Rectum.c	Celegans	Epithelial.c	0.606574973
+Myeloid cell A.h	Human	Myeloid.h	Neutrophil C.m	Mouse	Neutrophil.m	0.926466346
+Stromal cell C.m	Mouse	Stromal.m	Fibroblasts (Heart)(H).z	Zebrafish	Stromal.z	0.980342948
+Proliferating cell B.m	Mouse	Proliferating.m	Neurons B (Proliferating).lz	Zebrafish	Proliferating.z	0.856645681
+Osteoclast.h	Human	Stromal.h	Chondrocyte D.m	Mouse	Stromal.m	0.831238329
+Ciona22	SeaSquirts	Neuron.a	Oxygen sensory neurons.c	Celegans	Neuron.c	0.979495833
+secretory 4.s	Schmidtea	Secretory.s	Cnidocytean.n	Nematostella	Cnidocytean.n	0.870213537
+Lens cells A.lz	Zebrafish	Epithelial.z	Ciona1	SeaSquirts	Mesenchyme.a	0.683516707
+Dendritic cell E.m	Mouse	Dendritic.m	Macrophages.lz	Zebrafish	Immune.z	0.888282567
+Pancreatic endocrine cell.m	Mouse	Secretory.m	Pancreas endocrine cells (epsilon)(P).z	Zebrafish	Secretory.z	0.893709121
+Brown.fat.m	Mouse	Muscle.m	Skeletal muscle cells B.lz	Zebrafish	Muscle.z	0.971969691
+Smooth muscle cells B (Endocrine pancreas)(P).z	Zebrafish	Muscle.z	Ciona8	SeaSquirts	Muscle1.a	0.747358335
+B cell A.m	Mouse	B cell.m	B cells(H).z	Zebrafish	Immune.z	0.96272137
+Neuron B.m	Mouse	Neuron.m	Neurons A (Brain).lz	Zebrafish	Neuron.z	0.989928199
+Dendritic cell C.m	Mouse	Dendritic.m	Macrophages.lz	Zebrafish	Immune.z	0.945701
+Ribosome-gene-high cell.m	Mouse	Proliferating.m	Neurons B (Proliferating).lz	Zebrafish	Proliferating.z	0.902590709
+Endothelial cell B.m	Mouse	Endothelial.m	Endothelial cells.lz	Zebrafish	Endothelial.z	0.962606443
+Pigment cells (Xantophores).lz	Zebrafish	Epithelial.z	Ciona27	SeaSquirts	Mesenchyme.a	0.755547076
+Macrophage F.h	Human	Macrophage.h	M2 Macrophage A.m	Mouse	Macrophage.m	0.877445442
+neoblast 13.s	Schmidtea	Proliferating.s	Precursorsan.n	Nematostella	Proliferating.n	0.713932371
+Neutrophil B.h	Human	Neutrophil.h	Neutrophil A.m	Mouse	Neutrophil.m	0.952375651
+Erythrocyte A.h	Human	Erythroid.h	Erythrocyte C.m	Mouse	Erythroid.m	0.987275379
+Skeletal muscle cells E (slow).lz	Zebrafish	Muscle.z	Ciona8	SeaSquirts	Muscle1.a	0.970788207
+Neuron C.h	Human	Neuron.h	Oligodendrocyte A.m	Mouse	Neuron.m	0.998256865
+Epithelial cell B.h	Human	Epithelial.h	Gastric epithelial cell.m	Mouse	Epithelial.m	0.99203524
+secretory 3.s	Schmidtea	Secretory.s	Cnidocytean.n	Nematostella	Cnidocytean.n	0.700475089
+B cells(H).z	Zebrafish	Immune.z	Ciona21	SeaSquirts	MesenchymeA.a	0.859608754
+Endothelial cells (Heart)(H).z	Zebrafish	Endothelial.z	Ciona10	SeaSquirts	Epithelial.a	0.888902878
+Endothelial cells.lz	Zebrafish	Endothelial.z	Ciona10	SeaSquirts	Epithelial.a	0.583928941
+Fibroblast A.m	Mouse	Stromal.m	Fibroblasts (Liver)(P).z	Zebrafish	Stromal.z	0.977901885
+Macrophage D.h	Human	Macrophage.h	Macrophage B.m	Mouse	Macrophage.m	0.948192938
+Neutrophil A.h	Human	Neutrophil.h	Neutrophil C.m	Mouse	Neutrophil.m	0.958720137
+Basal cell A.h	Human	Epithelial.h	Gastric epithelial cell.m	Mouse	Epithelial.m	0.981201467
+Touch receptor neurons.c	Celegans	Neuron.c	ChAT neurons 1.s	Schmidtea	Neuron.s	0.938571634
+Chondrocyte A.m	Mouse	Stromal.m	Chondrocytes C.lz	Zebrafish	Stromal.z	0.968719839
+Fibroblasts D.lz	Zebrafish	Stromal.z	Ciona33	SeaSquirts	Proliferating.a	0.618563937
+Radial glia(B).z	Zebrafish	Neuron.z	Ciona22	SeaSquirts	Neuron.a	0.930594233
+npp-18+ neurons.s	Schmidtea	Neuron.s	Neuronan.n	Nematostella	Neuron.n	0.822590536
+Olfactory receptor cells.lz	Zebrafish	Neuron.z	Ciona18	SeaSquirts	Neuron.a	0.937228184
+M2 Macrophage B.m	Mouse	Macrophage.m	Macrophages.lz	Zebrafish	Immune.z	0.902702881
+Fibroblasts (Pancreas)(P).z	Zebrafish	Stromal.z	Ciona32	SeaSquirts	Proliferating.a	0.721591347
+Ciona4	SeaSquirts	Mesenchyme.a	Non-seam hypodermis.c	Celegans	Epithelial.c	0.628076823
+psd+ cells.s	Schmidtea	Parenchymal.s	Gastrodermisan.n	Nematostella	Gastrodermis.n	0.641612851
+Chondrocytes B.lz	Zebrafish	Stromal.z	Ciona35	SeaSquirts	Proliferating.a	0.593077257
+Smooth muscle cells A (Vasculature).lz	Zebrafish	Muscle.z	Ciona8	SeaSquirts	Muscle1.a	0.885318949
+Ciona33	SeaSquirts	Proliferating.a	Sex myoblasts.c	Celegans	Proliferating.c	0.911361028
+Ciona17	SeaSquirts	Mesenchyme.a	Rectum.c	Celegans	Epithelial.c	0.654109514
+Macrophage C.h	Human	Macrophage.h	Macrophage B.m	Mouse	Macrophage.m	0.940098292
+Fibroblast E.h	Human	Stromal.h	Fibroblast B.m	Mouse	Stromal.m	0.932639453
+Erythrocyte B.h	Human	Erythroid.h	Erythrocyte C.m	Mouse	Erythroid.m	0.99842007
+Epithelial cell D.m	Mouse	Epithelial.m	Retinal pigment epithelial cells.lz	Zebrafish	Epithelial.z	0.867499721
+Germline.c	Celegans	Proliferating.c	neoblast 1.s	Schmidtea	Proliferating.s	0.974117672
+Endothelial cell A.h	Human	Endothelial.h	Endothelial cell A.m	Mouse	Endothelial.m	0.956454118
+Pancreatic acinar cell B.m	Mouse	Secretory.m	Pancreas exocrine cells A(P).z	Zebrafish	Secretory.z	0.974185203
+Alveolar type II cell.m	Mouse	Epithelial.m	Epithelial cells (other).lz	Zebrafish	Epithelial.z	0.952686491
+Neuronal cell.h	Human	Neuron.h	Neuron B.m	Mouse	Neuron.m	0.93602812
+Enterocyte  B.h	Human	Epithelial.h	Intestinal epithelial cell.m	Mouse	Epithelial.m	0.943580924
+Monocyte B.h	Human	Monocyte.h	Neutrophil C.m	Mouse	Neutrophil.m	0.994323192
+muscle progenitors.s	Schmidtea	Proliferating.s	Precursorsan.n	Nematostella	Proliferating.n	0.710599895
+Ciona34	SeaSquirts	Proliferating.a	Sex myoblasts.c	Celegans	Proliferating.c	0.880554004
+Chondrocytes A.h	Human	Stromal.h	Stromal cell D.m	Mouse	Stromal.m	0.985970156
+Ciona20	SeaSquirts	Mesenchyme.a	Rectum.c	Celegans	Epithelial.c	0.595674899
+Ciona21	SeaSquirts	MesenchymeA.a	Coelomocytes.c	Celegans	Coelomocytes.c	0.876707066
+Neutrophil D.h	Human	Neutrophil.h	Neutrophil C.m	Mouse	Neutrophil.m	0.996575972
+Lens cells B.lz	Zebrafish	Epithelial.z	Ciona20	SeaSquirts	Mesenchyme.a	0.760892791
+Intestinal epithelial cell.m	Mouse	Epithelial.m	Intestinal cells A.lz	Zebrafish	Epithelial.z	0.985836229
+Chondrocyte D.m	Mouse	Stromal.m	Chondrocytes B.lz	Zebrafish	Stromal.z	0.986047842
+Conventional dendritic cell A.h	Human	Dendritic.h	Neutrophil C.m	Mouse	Neutrophil.m	0.945413413
+Epithelial cell A.h	Human	Epithelial.h	Epithelial cell D.m	Mouse	Epithelial.m	0.742170795
+Endothelial cells (Blood vessel)(P).z	Zebrafish	Endothelial.z	Ciona10	SeaSquirts	Epithelial.a	0.91852424
+Ciona16	SeaSquirts	Neuron.a	Ciliated sensory neurons.c	Celegans	Neuron.c	0.969478527
+Pharyngeal epithelia.c	Celegans	Pharynx.c	epidermis.s	Schmidtea	Epithelial.s	0.958959742
+M1 Macrophage.m	Mouse	Macrophage.m	Macrophages.lz	Zebrafish	Immune.z	0.968867838
+Alveolar type I cell.m	Mouse	Epithelial.m	Epithelial cells (other).lz	Zebrafish	Epithelial.z	0.96993792
+Ciona1	SeaSquirts	Mesenchyme.a	Non-seam hypodermis.c	Celegans	Epithelial.c	0.857960362
+GABAergic neurons.c	Celegans	Neuron.c	ChAT neurons 1.s	Schmidtea	Neuron.s	0.964285789
+Urothelium.m	Mouse	Epithelial.m	Epidermal cells A.lz	Zebrafish	Epithelial.z	0.969998752
+Proliferating stromal cell.h	Human	Proliferating.h	Proliferating epithelial cell.m	Mouse	ProliferatingEpithelial.m	0.723547981
+Fibroblast G.h	Human	Stromal.h	Stromal cell C.m	Mouse	Stromal.m	0.95078935
+Glial cells (Peripheral).lz	Zebrafish	Neuron.z	Ciona16	SeaSquirts	Neuron.a	0.832497875
+Basal cell B.h	Human	Epithelial.h	Gastric epithelial cell.m	Mouse	Epithelial.m	0.924065352
+Ciona2	SeaSquirts	Mesenchyme.a	Non-seam hypodermis.c	Celegans	Epithelial.c	0.782967688
+Oligodendrocyte B.h	Human	Neuron.h	Oligodendrocyte A.m	Mouse	Neuron.m	0.984657419
+Endothelial cell B.h	Human	Endothelial.h	Endothelial cell A.m	Mouse	Endothelial.m	0.96298107
+Erythrocytes B.lz	Zebrafish	Erythroid.z	Ciona8	SeaSquirts	Muscle1.a	0.693794632
+Hepatocytes A.lz	Zebrafish	Hepatocyte.z	Ciona7	SeaSquirts	MesenchymeA.a	0.753036588
+Epithelial cell B.m	Mouse	Epithelial.m	Epidermal cells C.lz	Zebrafish	Epithelial.z	0.932309615
+aqp+ parenchymal cells.s	Schmidtea	Parenchymal.s	Gastrodermisan.n	Nematostella	Gastrodermis.n	0.924875099
+Oligodendrocyte A.m	Mouse	Neuron.m	Neurons (CNS)(B).z	Zebrafish	Neuron.z	0.996334445
+Macrophage/Lymphatic vessel endothelial.h	Human	Macrophage.h	M2 Macrophage A.m	Mouse	Macrophage.m	0.888300733
+Endothelial cell(APC).h	Human	Endothelial.h	Endothelial cell A.m	Mouse	Endothelial.m	0.979576327
+Fibroblasts C.lz	Zebrafish	Stromal.z	Ciona33	SeaSquirts	Proliferating.a	0.877261163
+Ciona13	SeaSquirts	NeuronA.a	Ciliated sensory neurons.c	Celegans	Neuron.c	0.897959501
+Dendritic cell B.m	Mouse	Dendritic.m	Macrophages.lz	Zebrafish	Immune.z	0.965864429
+late epidermal progenitors 2.s	Schmidtea	Proliferating.s	Precursorsan.n	Nematostella	Proliferating.n	0.52437467
+Centrocyte.h	Human	Centrocyte.h	B cell A.m	Mouse	B cell.m	0.951034067
+Dendritic cell A.m	Mouse	Dendritic.m	Macrophages.lz	Zebrafish	Immune.z	0.964950638
+Plasmocyte B.h	Human	Plasmocyte.h	B cell B.m	Mouse	B cell.m	0.943784405
+Rod cells.lz	Zebrafish	Neuron.z	Ciona19	SeaSquirts	Neuron.a	0.881108471
+Leydig cell.m	Mouse	Epithelial.m	Intestinal cells A.lz	Zebrafish	Epithelial.z	0.899324861
+Somatic gonad precursors.c	Celegans	Proliferating.c	neoblast 1.s	Schmidtea	Proliferating.s	0.89827491
+secretory 1.s	Schmidtea	Secretory.s	Cnidocytean.n	Nematostella	Cnidocytean.n	0.938513335
+Pancreas endocrine cells (alpha)(P).z	Zebrafish	Secretory.z	Ciona11	SeaSquirts	NeuronA.a	0.909265725
+Pigment cells (Melanocytes).lz	Zebrafish	Epithelial.z	Ciona2	SeaSquirts	Mesenchyme.a	0.64372363
+Spermatogonia.m	Mouse	Proliferating.m	Neuronal precursors A.lz	Zebrafish	Proliferating.z	0.90963853
+Oligodendrocytes.lz	Zebrafish	Neuron.z	Ciona18	SeaSquirts	Neuron.a	0.871292069
+Chondrocytes D.lz	Zebrafish	Stromal.z	Ciona36	SeaSquirts	Proliferating.a	0.870723853
+Neurons D (Brain).lz	Zebrafish	Neuron.z	Ciona18	SeaSquirts	Neuron.a	0.957423888
+T cells(P).z	Zebrafish	Immune.z	Ciona21	SeaSquirts	MesenchymeA.a	0.922730119
+Renal tubular cell.m	Mouse	Epithelial.m	Kidney cells.lz	Zebrafish	Epithelial.z	0.981575518
+Unknown(H).z	Zebrafish	UnknownH.z	Ciona8	SeaSquirts	Muscle1.a	0.865030392
+Erythrocyte C.m	Mouse	Erythroid.m	Erythrocytes(H).z	Zebrafish	Erythroid.z	0.99769907
+Fibroblasts (Liver)(P).z	Zebrafish	Stromal.z	Ciona32	SeaSquirts	Proliferating.a	0.691158893
+Coelomocytes.c	Celegans	Coelomocytes.c	phagocytes.s	Schmidtea	Phagocytes.s	0.933153284
+Monocyte A.h	Human	Monocyte.h	Neutrophil C.m	Mouse	Neutrophil.m	0.988540348
+Macrophages(H).z	Zebrafish	Immune.z	Ciona21	SeaSquirts	MesenchymeA.a	0.960308897
+goblet cells.s	Schmidtea	Secretory.s	Cnidocytean.n	Nematostella	Cnidocytean.n	0.623059255
+Goblet cell.h	Human	Secretory.h	Pit cell.m	Mouse	Secretory.m	0.96078776
+Esophagus Basal cell.h	Human	Epithelial.h	Gastric epithelial cell.m	Mouse	Epithelial.m	0.961664251
+Kidney stromal cell.m	Mouse	Stromal.m	Fibroblasts (Pancreas)(P).z	Zebrafish	Stromal.z	0.695888732
+neoblast 5.s	Schmidtea	Proliferating.s	Precursorsan.n	Nematostella	Proliferating.n	0.824768889
+otf+ cells 2.s	Schmidtea	Neuron.s	Neuronan.n	Nematostella	Neuron.n	0.825449828
+Stromal cell E.h	Human	Stromal.h	Stromal cell D.m	Mouse	Stromal.m	0.885930519
+Oligodendrocyte B.m	Mouse	Neuron.m	Oligodendrocytes.lz	Zebrafish	Neuron.z	0.9934199
+Ependymal cell.h	Human	Neuron.h	Neuron B.m	Mouse	Neuron.m	0.968538988
+Oligodendrocytes(B).z	Zebrafish	Neuron.z	Ciona18	SeaSquirts	Neuron.a	0.972729474
+Ciliated cell.h	Human	Epithelial.h	Gastric epithelial cell.m	Mouse	Epithelial.m	0.912643363
+Cd8 T cell A.m	Mouse	T cell.m	T cells(H).z	Zebrafish	Immune.z	0.953452104
+early epidermal progenitors.s	Schmidtea	Proliferating.s	Precursorsan.n	Nematostella	Proliferating.n	0.631912268
+Smooth muscle cells A(P).z	Zebrafish	Muscle.z	Ciona8	SeaSquirts	Muscle1.a	0.889127854
+AT2 cell.h	Human	Epithelial.h	Alveolar type I cell.m	Mouse	Epithelial.m	0.946393694
+B cell B.m	Mouse	B cell.m	Macrophages.lz	Zebrafish	Immune.z	0.889417988
+Neutrophil F.h	Human	Neutrophil.h	Neutrophil C.m	Mouse	Neutrophil.m	0.855545176
+Keratinocytes B.lz	Zebrafish	Epithelial.z	Ciona20	SeaSquirts	Mesenchyme.a	0.820967936
+activated early epidermal progenitors.s	Schmidtea	Proliferating.s	Precursorsan.n	Nematostella	Proliferating.n	0.700828302
+Intestinal cells A.lz	Zebrafish	Epithelial.z	Ciona17	SeaSquirts	Mesenchyme.a	0.864550186
+T cell A.m	Mouse	T cell.m	T cells(H).z	Zebrafish	Immune.z	0.960189158
+Hepatocytes C.lz	Zebrafish	Hepatocyte.z	Ciona7	SeaSquirts	MesenchymeA.a	0.790068187
+Pancreatic acinar cell A.m	Mouse	Secretory.m	Pancreas endocrine cells (epsilon)(P).z	Zebrafish	Secretory.z	0.85644408
+neoblast 7.s	Schmidtea	Proliferating.s	Precursorsan.n	Nematostella	Proliferating.n	0.747617983
+Neuron B.h	Human	Neuron.h	Neuron B.m	Mouse	Neuron.m	0.979530832
+Neutrophils.lz	Zebrafish	Immune.z	Ciona21	SeaSquirts	MesenchymeA.a	0.857526713
+Pancreas exocrine cells A(P).z	Zebrafish	Secretory.z	Ciona13	SeaSquirts	NeuronA.a	0.571550927
+Fibroblast B.m	Mouse	Stromal.m	Fibroblasts (Liver)(P).z	Zebrafish	Stromal.z	0.968417914
+Ciona24	SeaSquirts	MesenchymeA.a	Coelomocytes.c	Celegans	Coelomocytes.c	0.525936386
+Thyroid follicular cell.h	Human	Epithelial.h	Gastric epithelial cell.m	Mouse	Epithelial.m	0.900612596
+protonephridia.s	Schmidtea	Excretory.s	Dig_filamentsan.n	Nematostella	DigFilaments.n	0.891140257
+Pancreas endocrine cells (delta)(P).z	Zebrafish	Secretory.z	Ciona11	SeaSquirts	NeuronA.a	0.889280294
+T cells(H).z	Zebrafish	Immune.z	Ciona7	SeaSquirts	MesenchymeA.a	0.866073409
+parenchymal progenitors.s	Schmidtea	Proliferating.s	Precursorsan.n	Nematostella	Proliferating.n	0.777780548
+Monocytes(H).z	Zebrafish	Immune.z	Ciona21	SeaSquirts	MesenchymeA.a	0.944258127
+neoblast 10.s	Schmidtea	Proliferating.s	Precursorsan.n	Nematostella	Proliferating.n	0.797166818
+Myocyte.m	Mouse	Muscle.m	Skeletal muscle cells E (slow).lz	Zebrafish	Muscle.z	0.918453342
+Chondrocytes C.h	Human	Stromal.h	Chondrocyte D.m	Mouse	Stromal.m	0.991803356
+Stromal cell E.m	Mouse	Stromal.m	Fibroblasts (Liver)(P).z	Zebrafish	Stromal.z	0.965821892
+Chondrocytes A.lz	Zebrafish	Stromal.z	Ciona33	SeaSquirts	Proliferating.a	0.814055058
+Fibroblast F.h	Human	Stromal.h	Chondrocyte D.m	Mouse	Stromal.m	0.934548595
+neoblast 9.s	Schmidtea	Proliferating.s	Precursorsan.n	Nematostella	Proliferating.n	0.726796328
+Excitatory neuron.h	Human	Neuron.h	Oligodendrocyte A.m	Mouse	Neuron.m	0.993693925
+Fibroblast A.h	Human	Stromal.h	Fibroblast C.m	Mouse	Stromal.m	0.961229458
+epidermis DVb neoblast.s	Schmidtea	Proliferating.s	Precursorsan.n	Nematostella	Proliferating.n	0.788803498
+neoblast 6.s	Schmidtea	Proliferating.s	Precursorsan.n	Nematostella	Proliferating.n	0.822550437
+Smooth muscle cells (Heart)(H).z	Zebrafish	Muscle.z	Ciona8	SeaSquirts	Muscle1.a	0.923143557
+Epithelial cell E.h	Human	Epithelial.h	Gastric epithelial cell.m	Mouse	Epithelial.m	0.960452758
+Neutrophil C.m	Mouse	Neutrophil.m	Neutrophils.lz	Zebrafish	Immune.z	0.999798028
+flp-1(+) interneurons.c	Celegans	Neuron.c	ChAT neurons 1.s	Schmidtea	Neuron.s	0.963601141
+Epidermal cells B.lz	Zebrafish	Epithelial.z	Ciona17	SeaSquirts	Mesenchyme.a	0.906515098
+Ciona6	SeaSquirts	Neuron.a	Oxygen sensory neurons.c	Celegans	Neuron.c	0.964677106
+Fibroblasts B (Fin).lz	Zebrafish	Stromal.z	Ciona33	SeaSquirts	Proliferating.a	0.857639176
+Plasmocyte A.h	Human	Plasmocyte.h	B cell B.m	Mouse	B cell.m	0.928433457
+Stromal cell D.m	Mouse	Stromal.m	Fibroblasts (Liver)(P).z	Zebrafish	Stromal.z	0.983054334
+Nephric duct cells.lz	Zebrafish	Epithelial.z	Ciona27	SeaSquirts	Mesenchyme.a	0.609921742
+epidermis DVb.s	Schmidtea	Epithelial.s	Dig_filamentsan.n	Nematostella	DigFilaments.n	0.523054258
+Fibroblasts (Heart)(H).z	Zebrafish	Stromal.z	Ciona33	SeaSquirts	Proliferating.a	0.713814925
+Neuron A.h	Human	Neuron.h	Neuron B.m	Mouse	Neuron.m	0.982315304
+Epidermal cells C.lz	Zebrafish	Epithelial.z	Ciona17	SeaSquirts	Mesenchyme.a	0.883846032
+Ciona9	SeaSquirts	Epithelial.a	Pharyngeal epithelia.c	Celegans	Pharynx.c	0.967229967
+Neutrophil A.m	Mouse	Neutrophil.m	Lymphocytes B.lz	Zebrafish	Immune.z	0.987256376
+Inner ear cells.lz	Zebrafish	Neuron.z	Ciona19	SeaSquirts	Neuron.a	0.795211453
+GABA neurons.s	Schmidtea	Neuron.s	Neuronan.n	Nematostella	Neuron.n	0.870061162
+Pit cell.m	Mouse	Secretory.m	Pancreas duct epithelial cells(P).z	Zebrafish	Secretory.z	0.969312978
+Non-seam hypodermis.c	Celegans	Epithelial.c	phagocytes.s	Schmidtea	Phagocytes.s	0.980358774
+Pharyngeal gland.c	Celegans	Pharynx.c	npp-18+ neurons.s	Schmidtea	Neuron.s	0.882077438
+Ciona30	SeaSquirts	Muscle.a	Intestinal/rectal muscle.c	Celegans	Muscle.c	0.87715277
+Am/PH sheath cells.c	Celegans	Glia.c	phagocytes.s	Schmidtea	Phagocytes.s	0.937165942
+T cell B.m	Mouse	T cell.m	Lymphocytes A.lz	Zebrafish	Immune.z	0.88793375
+Ciona15	SeaSquirts	EpithelialA.a	Am/PH sheath cells.c	Celegans	Glia.c	0.792222008
+Cartilage cell.h	Human	Stromal.h	Chondrocyte D.m	Mouse	Stromal.m	0.991621762
+Macrophages.lz	Zebrafish	Immune.z	Ciona24	SeaSquirts	MesenchymeA.a	0.89151145
+Ciliated sensory neurons.c	Celegans	Neuron.c	GABA neurons.s	Schmidtea	Neuron.s	0.991678588
+Ciona36	SeaSquirts	Proliferating.a	Somatic gonad precursors.c	Celegans	Proliferating.c	0.83421393
+Radial glia A.lz	Zebrafish	Neuron.z	Ciona29	SeaSquirts	Neuron.a	0.523523951
+Osteoblast.m	Mouse	Stromal.m	Fibroblasts (Liver)(P).z	Zebrafish	Stromal.z	0.976947594
+Macrophage A.h	Human	Macrophage.h	Macrophage B.m	Mouse	Macrophage.m	0.921895663
+Cardiomyocytes (Atrium)(H).z	Zebrafish	Muscle.z	Ciona8	SeaSquirts	Muscle1.a	0.980329805
+Retinal cells B.lz	Zebrafish	Neuron.z	Ciona18	SeaSquirts	Neuron.a	0.953032838
+Proliferating cell A.m	Mouse	Proliferating.m	Neuronal precursors A.lz	Zebrafish	Proliferating.z	0.915281759
+Pancreas duct epithelial cells(P).z	Zebrafish	Secretory.z	Ciona13	SeaSquirts	NeuronA.a	0.846977376
+Epithelial cells (other).lz	Zebrafish	Epithelial.z	Ciona17	SeaSquirts	Mesenchyme.a	0.766247339
+Skeletal muscle cells A.lz	Zebrafish	Muscle.z	Ciona8	SeaSquirts	Muscle1.a	0.864429966
+Skeletal muscle cell A.m	Mouse	Muscle.m	Cardiomyocytes (Ventricle)(H).z	Zebrafish	Muscle.z	0.997730205
+Smooth muscle cell C.h	Human	Muscle.h	Smooth muscle cell A.m	Mouse	Muscle.m	0.96843592
+pigment.s	Schmidtea	Parenchymal.s	Gastrodermisan.n	Nematostella	Gastrodermis.n	0.818749686
+Vulval precursors.c	Celegans	Proliferating.c	neoblast 1.s	Schmidtea	Proliferating.s	0.858115979
+Other interneurons.c	Celegans	Neuron.c	ChAT neurons 2.s	Schmidtea	Neuron.s	0.95532323
+Pharyngeal muscle.c	Celegans	Pharynx.c	protonephridia.s	Schmidtea	Excretory.s	0.900315905
+Hepatocytes B(P).z	Zebrafish	Hepatocyte.z	Ciona21	SeaSquirts	MesenchymeA.a	0.726092312
+Pancreas exocrine cells.lz	Zebrafish	Secretory.z	Ciona13	SeaSquirts	NeuronA.a	0.504783552
+Mast cell.h	Human	Mast.h	Dendritic cell D.m	Mouse	Dendritic.m	0.809715607
+Proximal tubule brush border cell.m	Mouse	Epithelial.m	Kidney cells.lz	Zebrafish	Epithelial.z	0.997443039
+Acinar cell A.h	Human	Secretory.h	Pancreatic acinar cell B.m	Mouse	Secretory.m	0.974374264
+Oligodendrocyte A.h	Human	Neuron.h	Neuron B.m	Mouse	Neuron.m	0.921979133
+Skeletal muscle cells D.lz	Zebrafish	Muscle.z	Ciona8	SeaSquirts	Muscle1.a	0.773690489
+Neurons C (Spinal cord).lz	Zebrafish	Neuron.z	Ciona18	SeaSquirts	Neuron.a	0.974414471
+Kidney cells.lz	Zebrafish	Epithelial.z	Ciona23	SeaSquirts	Mesenchyme.a	0.759293616
+Skeletal muscle cell B.m	Mouse	Muscle.m	Cardiomyocytes (Ventricle)(H).z	Zebrafish	Muscle.z	0.996886756
+Erythrocytes A.lz	Zebrafish	Erythroid.z	Ciona8	SeaSquirts	Muscle1.a	0.27852931
+Ciona7	SeaSquirts	MesenchymeA.a	Coelomocytes.c	Celegans	Coelomocytes.c	0.614494203
+ChAT neurons 1.s	Schmidtea	Neuron.s	Neuronan.n	Nematostella	Neuron.n	0.845545122
+Canal associated neurons.c	Celegans	Neuron.c	ChAT neurons 1.s	Schmidtea	Neuron.s	0.923699102
+Smooth muscle cell B.h	Human	Muscle.h	Smooth muscle cell A.m	Mouse	Muscle.m	0.9533597
+Conventional dendritic cell B.h	Human	Dendritic.h	M2 Macrophage A.m	Mouse	Macrophage.m	0.922907465
+Pancreas exocrine cells B(P).z	Zebrafish	Secretory.z	Ciona13	SeaSquirts	NeuronA.a	0.834117854
+Gastric chief cell.h	Human	Secretory.h	Gastric epithelial cell.m	Mouse	Epithelial.m	0.984700417
+muscle body.s	Schmidtea	Muscle.s	Musclean.n	Nematostella	Muscle.n	0.957318222
+Epithelial cell (kidney).h	Human	Epithelial.h	Proximal tubule brush border cell.m	Mouse	Epithelial.m	0.951175957
+Stromal cell F.m	Mouse	Stromal.m	Osteoblasts.lz	Zebrafish	Stromal.z	0.813192356
+Ciona32	SeaSquirts	Proliferating.a	Germline.c	Celegans	Proliferating.c	0.792275301
+Epithelial cell A.m	Mouse	Epithelial.m	Epidermal cells C.lz	Zebrafish	Epithelial.z	0.903666113
+Hepatocyte.h	Human	Hepatocyte.h	Hepatocyte A.m	Mouse	Hepatocyte.m	0.999216056
+Macrophage C.m	Mouse	Macrophage.m	Microglia(B).z	Zebrafish	Immune.z	0.971889665
+muscle pharynx.s	Schmidtea	Muscle.s	Musclean.n	Nematostella	Muscle.n	0.945739918
+spp-11+ neurons.s	Schmidtea	Neuron.s	Neuronan.n	Nematostella	Neuron.n	0.736301717
+Skeletal muscle cells C.lz	Zebrafish	Muscle.z	Ciona8	SeaSquirts	Muscle1.a	0.955538851
+Endothelial cell D.m	Mouse	Endothelial.m	Endothelial cells (Blood vessel)(P).z	Zebrafish	Endothelial.z	0.968839739
+Cnidocytean.n	Nematostella	Cnidocytean.n	root	Root	root	1
+Dig_filamentsan.n	Nematostella	DigFilaments.n	root	Root	root	1
+Epitheliuman.n	Nematostella	Epithelial.n	root	Root	root	1
+Gastrodermisan.n	Nematostella	Gastrodermis.n	root	Root	root	1
+Gland_secretoryan.n	Nematostella	Secretory.n	root	Root	root	1
+Musclean.n	Nematostella	Muscle.n	root	Root	root	1
+Neuronan.n	Nematostella	Neuron.n	root	Root	root	1
+Precursorsan.n	Nematostella	Proliferating.n	root	Root	root	1
