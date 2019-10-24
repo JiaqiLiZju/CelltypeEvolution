@@ -43,12 +43,15 @@ Pseudocell_analysis_pipeline <- function(DGE_tab_data, phenotype_tab_data,
   
   # check and proc with table cols and rows name
   Inter.id<-id
-  if(length(colnames(Inter.id)) == 3){
+  if (all(c("CellID", "Celltype") %in% colnames(Inter.id))){
+    message("phenotype_tab_data has CellID, Celltype")
+  }
+  else if(length(colnames(Inter.id)) == 3){
 	  colnames(Inter.id)<-c("CellID", "Tissue", "Celltype")
   }else if(length(colnames(Inter.id)) == 2) {
     colnames(Inter.id)<-c("CellID", "Celltype")
   }else{
-    warning("colnames of phenotype_tab_data more than 3,
+    message("colnames of phenotype_tab_data more than 3,
             set as CellID, Tissue, Celltype, others")
     colnames(Inter.id)[1:3] <- c("CellID", "Tissue", "Celltype")
   }
