@@ -99,8 +99,10 @@ Pseudocell_analysis_pipeline <- function(DGE_tab_data, phenotype_tab_data,
   
   new_ids_length<-as.matrix(new_ids_length)##
   short<-which(new_ids_length<10)##  ##short if not 0
-  
-  new_good_ids<-as.matrix(new_ids_length[-short,])##
+  if (length(short)>0){
+    new_good_ids<-as.matrix(new_ids_length[-short,])##
+  }else{
+    new_good_ids<-as.matrix(new_ids_length)}
   
   name_str <- colname_str
   result<-t(new.data)[,rownames(new_good_ids)]
