@@ -1,6 +1,8 @@
 library(reshape2)
 library(Matrix)
 
+CHECK_POINT <- FALSE
+
 ####################### HELP function #########################
 # read celltype matrix: 
 # read table file and set colnames as rownames
@@ -47,8 +49,8 @@ anno_Cor_file <- function(total_celltype_df, anno_info_fname){
   anno_celltype2 <- anno_info_df[total_celltype_df[,2], c(1,2,4)]
   anno_celltype_df <- cbind(anno_celltype1, anno_celltype2, total_celltype_df[, 3])
 
-  colnames(anno_celltype_df) <- c("CellType1", "Species1", "Sub_Cluster1", 
-                                  "CellType2", "Species2", "Sub_Cluster2", "Value")
+  colnames(anno_celltype_df) <- c("CellType1", "Species1", "Cluster1", 
+                                  "CellType2", "Species2", "Cluster2", "Mean_AUROC")
   rownames(anno_celltype_df)<-NULL
 
   anno_celltype_df <- na.omit(anno_celltype_df)
@@ -104,44 +106,50 @@ class_class_similarity_counting_perl <- function(){
   system("perl 5_Class_Class.similarity.pl")
   system("perl 6_max_add.pl")
 }
+
 class_class_similarity_counting <- function(rearranged_celltype_mat){
   #####class_class_similarity
   rearranged_celltype_mat <- as.data.frame(rearranged_celltype_mat, stringsAsFactors=FALSE)
   rearranged_celltype_mat$Value <- as.numeric(rearranged_celltype_mat$Value)
 
+  # drop duplicated row
+  rearranged_celltype_mat <- rearranged_celltype_mat[!duplicated(rearranged_celltype_mat),]
+
   ##counting average_value
   average_value_celltype_mat <- aggregate(rearranged_celltype_mat[,7],
 										by=list(rearranged_celltype_mat[,3], rearranged_celltype_mat[,6]), 
 										FUN=mean, na.rm=TRUE)
-  colnames(average_value_celltype_mat) <- c("Sub_Cluster1", "Sub_Cluster2", "Value")
+  colnames(average_value_celltype_mat) <- c("Cluster1", "Cluster2", "AUROC")
 
   #####MAX_ADD
   ##as the blackground of class simialrity
   ##average_value{sub_cluster1}{sub_cluster2} > 0.8
-  blackground_aveVal_celltype <- average_value_celltype_mat[average_value_celltype_mat$Value>0.8, ]
+  blackground_aveVal_celltype <- average_value_celltype_mat[average_value_celltype_mat$AUROC>0.8, ]
 
   ##MAX average_value of {sub_cluster1}
   max_aveVal_celltype <- aggregate(average_value_celltype_mat,
-                  by=list(average_value_celltype_mat$Sub_Cluster1),
+                  by=list(average_value_celltype_mat$Cluster1),
                   FUN=max, na.rm=TRUE, drop=FALSE)
   max_aveVal_celltype <- max_aveVal_celltype[,c(2,3,4)]
   
   #use pasted cluster name as index
-  select <- rearranged_celltype_mat[,c('Sub_Cluster1', 'Sub_Cluster2')]
-  blackground <- blackground_aveVal_celltype[,c('Sub_Cluster1', 'Sub_Cluster2')]
-  max_df <- max_aveVal_celltype[,c('Sub_Cluster1', 'Sub_Cluster2')]
-  select$key <- paste(rearranged_celltype_mat$Sub_Cluster1, rearranged_celltype_mat$Sub_Cluster2, sep="_")
-  blackground$key <- paste(blackground_aveVal_celltype$Sub_Cluster1, blackground_aveVal_celltype$Sub_Cluster2, sep="_")
-  max_df$key <- paste(max_aveVal_celltype$Sub_Cluster1, max_aveVal_celltype$Sub_Cluster2, sep="_")
-  #selected <- union(which(select$key %in% blackground$key), 
-  #                  which(select$key %in% max_df$key))
-  selected <- NULL
-  for(key in blackground$key){
-    selected <- union(selected, which(select$key == key))
-  }
-  for(key in max_df$key){
-    selected <- union(selected, which(max_df$key== key))
-  }
+  select <- rearranged_celltype_mat[,c('Cluster1', 'Cluster2', "Mean_AUROC")]
+  blackground <- blackground_aveVal_celltype
+  max_df <- max_aveVal_celltype
+  select$key <- paste(rearranged_celltype_mat$Cluster1, rearranged_celltype_mat$Cluster2, rearranged_celltype_mat$Cluster2, rearranged_celltype_mat$Mean_AUROC, sep="_")
+  blackground$key <- paste(blackground_aveVal_celltype$Cluster1, blackground_aveVal_celltype$Cluster2, sep="_")
+  max_df$key <- paste(max_aveVal_celltype$Cluster1, max_aveVal_celltype$Cluster2, sep="_")
+  
+  # merge blackground and max_aveVal
+  selected <- union(which(select$key %in% blackground$key), 
+                   which(select$key %in% max_df$key))
+  # selected <- NULL
+  # for(key in blackground$key){
+  #   selected <- union(selected, which(select$key == key))
+  # }
+  # for(key in max_df$key){
+  #   selected <- union(selected, which(max_df$key== key))
+  # }
   #max_black_celltype <- rearranged_celltype_mat[which(rearranged_celltype_mat$select==union(blackground_key, max_key)),]
   #rownames(max_black_celltype)<-NULL
   ## total celltype anno_info of
@@ -232,13 +240,13 @@ merge_celltype_pipeline <- function(fname_vector, arranged_species_name_vector, 
   write.table(rearranged_anno_total_celltype_mat, file="Total_dup_species.Cor.ann_subcluster.sort_1.filter.txt",sep="\t", row.names=FALSE, quote=F)
   
   # class_similarity_counting_result <- list(average_value_celltype_mat, blackground_aveVal_celltype, max_aveVal_celltype, max_black_celltype) 
-  class_similarity_counting_result <- class_class_similarity_counting(rearranged_anno_total_celltype_mat)
+  class_similarity_counting_result <- class_class_similarity_counting_perl(rearranged_anno_total_celltype_mat)
   
   
   if (!is.null(root_fname)){
     root <- read.table(root_fname, sep='\t')
-    colnames(root) <- c("CellType1", "Species1", "Sub_Cluster1", 
-                        "CellType2", "Species2", "Sub_Cluster2", "Value")
+    colnames(root) <- c("CellType1", "Species1", "Cluster1", 
+                        "CellType2", "Species2", "Cluster2", "Value")
     class_similarity_counting_result[[4]] <- rbind(class_similarity_counting_result[[4]], root)
   }
   
@@ -283,10 +291,27 @@ test_merge_celltype_pipeline <- function(){
   
   anno_info_fname = "/home/ggj/jiaqiLi/dev/R_dev/To_Jiaqi/Tree/438celltype-NEW-20190728.annotation"
   
-  delete_list = c("TNFalpha cells(H).z", "sst1.1 cells(P).z", "Apelin cells(H).z", "Apelin cells(P).z", 
-                  "Testicular cell.m", "Prostate gland cell.m", "Luteal cell.m", 
-                  "Mammary gland in lactation.m", "Corneal cells.lz", "Ciona31", "Trophoblast progenitor cell.m")
-                  #"Unknown(H).z", "Unknown(B).z")
+  delete_list = c("TNFalpha cells(H).z",
+                  "sst1.1 cells(P).z",
+                  "Apelin cells(H).z",
+                  "Apelin cells(P).z",
+                  "Testicular cell.m",
+                  "Prostate gland cell.m",
+                  "Luteal cell.m",
+                  "Mammary gland in lactation.m",
+                  "Corneal cells.lz",
+                  "Ciona31",
+                  "Trophoblast progenitor cell.m",
+                  "Unknown(H).z",
+                  "Unknown(B).z",
+                  "Proliferating.n",
+                  "Proliferating.s",
+                  "Proliferating.c",
+                  "Endoderm.a",
+                  "Proliferating.z",
+                  "Proliferating.m",
+                  "Proliferating.h"
+                  )
   
   # root_fname = "/home/ggj/jiaqiLi/dev/R_dev/script/evolution_tree/data/root.txt"
   
