@@ -1,7 +1,7 @@
 ## file IO
 read_tabfile <- function(fname, sep='\t'){
   message(paste("loading", fname, sep='\t'))
-  out <- read.table(fname, sep=sep)
+  out <- read.table(fname, sep=sep, header = T)
   message(paste("loaded", fname, sep='\t'))
   return(out)
 }
@@ -17,10 +17,10 @@ read_tabfile <- function(fname, sep='\t'){
 # save_out_file: save result or not,                  DEFAULT: TRUE
 # out_file_name_str: name of output file,             DEFAULT: "OUT"
 #
-# return list[result_dge, new_phe]
+# return list[result_dge, new_phe] if not save_out_file
 # result_dge: Pseudocell dge; new_phe: Pseudocell phenotype
 #
-Pseudocell_analysis_pipeline <- function(DGE_tab_data, phenotype_tab_data, 
+Pseudocell_analysis_pipeline <- function(DGE_tab_data, phenotype_tab_data, sep=',',
                                           pseudocell_size = 20, colname_str = 'Pseudocell_',
                                           save_out_file = TRUE, out_file_name_str = 'OUT'){
   # io
@@ -28,9 +28,9 @@ Pseudocell_analysis_pipeline <- function(DGE_tab_data, phenotype_tab_data,
     # if input is fname
     # input file io
     message("loading DGE")
-    data <- read.table(DGE_tab_data)
+    data <- read_tabfile(DGE_tab_data, sep = sep)
     message("loading phenotype.tab")
-    id <- read.table(phenotype_tab_data, sep="\t")
+    id <- read_tabfile(phenotype_tab_data, sep = sep)
     message("input file io done, processing begin")
 
   }else if(is.data.frame(DGE_tab_data) && is.data.frame(phenotype_tab_data)){
@@ -45,8 +45,7 @@ Pseudocell_analysis_pipeline <- function(DGE_tab_data, phenotype_tab_data,
   Inter.id<-id
   if (all(c("CellID", "Celltype") %in% colnames(Inter.id))){
     message("phenotype_tab_data has CellID, Celltype")
-  }
-  else if(length(colnames(Inter.id)) == 3){
+  }else if(length(colnames(Inter.id)) == 3){
 	  colnames(Inter.id)<-c("CellID", "Tissue", "Celltype")
   }else if(length(colnames(Inter.id)) == 2) {
     colnames(Inter.id)<-c("CellID", "Celltype")
@@ -76,7 +75,7 @@ Pseudocell_analysis_pipeline <- function(DGE_tab_data, phenotype_tab_data,
     cluster_id = unique(Inter.id$Celltype)[i]
     cluster_cells <- rownames(Inter.id[Inter.id$Celltype == cluster_id,])
     cluster_size <- length(cluster_cells)		
-    pseudo_ids <- floor(seq_along(cluster_cells)/pseudocell.size)
+    pseudo_ids <- floor((seq_along(cluster_cells)-1)/pseudocell.size)
     pseudo_ids <- paste0(cluster_id, "_Cell", pseudo_ids)
     names(pseudo_ids) <- sample(cluster_cells)	
     new_ids_list[[i]] <- pseudo_ids		
@@ -98,9 +97,14 @@ Pseudocell_analysis_pipeline <- function(DGE_tab_data, phenotype_tab_data,
   new.data<-new.data[,-1]
   
   new_ids_length<-as.matrix(new_ids_length)##
-  short<-which(new_ids_length<10)##  ##short if not 0
+  short<-which(new_ids_length < floor(pseudocell_size * 0.8)) ## short if not 0
+  if (length(short)>0){
+    new_good_ids<-as.matrix(new_ids_length[-short,])##
+  }else{
+    new_good_ids<-as.matrix(new_ids_length)}
   
-  new_good_ids<-as.matrix(new_ids_length[-short,])##
+  new_good_ids <- as.matrix(new_ids_length[-short,])##
+  new_good_ids <- as.matrix(new_ids_length)
   
   name_str <- colname_str
   result<-t(new.data)[,rownames(new_good_ids)]
@@ -115,17 +119,17 @@ Pseudocell_analysis_pipeline <- function(DGE_tab_data, phenotype_tab_data,
     #output file name
     out_rds_str <- paste(out_file_name_str, "pseudocell", pseudocell_size, ".Rds", 
                          sep="_", collapse = NULL)
-    out_pheno_str <- paste(out_file_name_str, "pseudocell", pseudocell_size, ".pheno.tab", 
+    out_pheno_str <- paste(out_file_name_str, "pseudocell", pseudocell_size, ".pheno.csv", 
                            sep="_", collapse = NULL)
     
     #output file io
     message("process done, saving data")
     saveRDS(result,file=out_rds_str)
-    write.table(new.phe,file=out_pheno_str,quote=F,row.names=F)
+    write.table(new.phe, file=out_pheno_str, sep=',', quote=F, row.names=F)
     message("pipeline exit successfully")
+  }esle{
+    return(list(result, new.phe))
   }
-  
-  return(list(result, new.phe))
 }
 
 test_Pseudocell_analysis_pipeline <- function(){

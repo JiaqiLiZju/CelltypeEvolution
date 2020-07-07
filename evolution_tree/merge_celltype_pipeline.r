@@ -136,9 +136,9 @@ class_class_similarity_counting <- function(rearranged_celltype_mat){
   select <- rearranged_celltype_mat[,c('Cluster1', 'Cluster2', "Mean_AUROC")]
   blackground <- blackground_aveVal_celltype
   max_df <- max_aveVal_celltype
-  select$key <- paste(rearranged_celltype_mat$Cluster1, rearranged_celltype_mat$Cluster2, rearranged_celltype_mat$Cluster2, rearranged_celltype_mat$Mean_AUROC, sep="_")
-  blackground$key <- paste(blackground_aveVal_celltype$Cluster1, blackground_aveVal_celltype$Cluster2, sep="_")
-  max_df$key <- paste(max_aveVal_celltype$Cluster1, max_aveVal_celltype$Cluster2, sep="_")
+  select$key <- paste0(rearranged_celltype_mat$Cluster1, rearranged_celltype_mat$Cluster2, rearranged_celltype_mat$Cluster2, rearranged_celltype_mat$Mean_AUROC, sep="_")
+  blackground$key <- paste0(blackground_aveVal_celltype$Cluster1, blackground_aveVal_celltype$Cluster2, sep="_")
+  max_df$key <- paste0(max_aveVal_celltype$Cluster1, max_aveVal_celltype$Cluster2, sep="_")
   
   # merge blackground and max_aveVal
   selected <- union(which(select$key %in% blackground$key), 
