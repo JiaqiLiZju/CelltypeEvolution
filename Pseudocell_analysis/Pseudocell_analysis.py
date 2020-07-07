@@ -10,7 +10,7 @@ def Pseudocell_analysis_pipeline(DGE_tab_data, phenotype_tab_data, pseudocell_si
     discard_t: cell number < discard_t * pseudocell will be discard     DEFAULT: 0.8
     """
 
-    data = pd.read_csv(DGE_tab_data, sep=',', index_col=0, header=0).T
+    data = pd.read_csv(DGE_tab_data, sep=',', index_col=0, header=0)
     anno = pd.read_csv(phenotype_tab_data, sep =',', index_col=None, header=0)
 
     anno.columns = ["CellID", "Tissue", "Celltype"]
