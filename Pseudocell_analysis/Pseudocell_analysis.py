@@ -29,4 +29,6 @@ def Pseudocell_analysis_pipeline(DGE_tab_data, phenotype_tab_data, pseudocell_si
     data['pseudo.id'] = anno['pseudo.id'].values
     data_mean = data.groupby(['pseudo.id']).mean()[idx]
 
-    return data_mean
+    new_anno = anno.groupby(['pseudo.id'])[["Tissue","Celltype"]].max()[idx]
+
+    return data_mean, new_anno
