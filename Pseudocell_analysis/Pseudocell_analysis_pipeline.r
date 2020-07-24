@@ -127,7 +127,7 @@ Pseudocell_analysis_pipeline <- function(DGE_tab_data, phenotype_tab_data, sep='
     saveRDS(result,file=out_rds_str)
     write.table(new.phe, file=out_pheno_str, sep=',', quote=F, row.names=F)
     message("pipeline exit successfully")
-  }esle{
+  }else{
     return(list(result, new.phe))
   }
 }
