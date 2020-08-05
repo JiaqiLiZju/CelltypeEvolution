@@ -98,15 +98,15 @@ delete_celltype <- function(rearranged_celltype_mat, delete_list){
   return(as.matrix(rearranged_celltype_mat))
 }
 
+# class_class_similarity_counting_perl <- function(){
+#   system("perl 5_Class_Class.similarity.pl")
+#   system("perl 6_max_add.pl")
+# }
+
 # class_class_similarity_counting:
 # counting average_value of Sub_Cluster1 and Sub_Cluster2
 # set average_value_celltype_mat > 0.8 as blackground
 # counting MAX average_value of sub_cluster1
-class_class_similarity_counting_perl <- function(){
-  system("perl 5_Class_Class.similarity.pl")
-  system("perl 6_max_add.pl")
-}
-
 class_class_similarity_counting <- function(rearranged_celltype_mat){
   #####class_class_similarity
   rearranged_celltype_mat <- as.data.frame(rearranged_celltype_mat, stringsAsFactors=FALSE)
@@ -240,8 +240,8 @@ merge_celltype_pipeline <- function(fname_vector, arranged_species_name_vector, 
   write.table(rearranged_anno_total_celltype_mat, file="Total_dup_species.Cor.ann_subcluster.sort_1.filter.txt",sep="\t", row.names=FALSE, quote=F)
   
   # class_similarity_counting_result <- list(average_value_celltype_mat, blackground_aveVal_celltype, max_aveVal_celltype, max_black_celltype) 
-  class_similarity_counting_result <- class_class_similarity_counting_perl(rearranged_anno_total_celltype_mat)
-  
+  # class_similarity_counting_result <- class_class_similarity_counting_perl(rearranged_anno_total_celltype_mat)
+  class_similarity_counting_result <- class_class_similarity_counting(rearranged_anno_total_celltype_mat)
   
   if (!is.null(root_fname)){
     root <- read.table(root_fname, sep='\t')
@@ -263,10 +263,7 @@ merge_celltype_pipeline <- function(fname_vector, arranged_species_name_vector, 
   }else{
     return(class_similarity_counting_result)
   }
-  
-  class_class_similarity_counting_perl()
 }
-  
 
 
 ############################ TEST FUNCTION #############################
@@ -313,7 +310,7 @@ test_merge_celltype_pipeline <- function(){
                   "Proliferating.h"
                   )
   
-  # root_fname = "/home/ggj/jiaqiLi/dev/R_dev/script/evolution_tree/data/root.txt"
+  root_fname = "/home/ggj/jiaqiLi/dev/R_dev/script/evolution_tree/data/root.txt"
   
   # print and save all the tmp file
   merge_celltype_pipeline(fname_vector, arranged_species_name_vector, anno_info_fname, root_fname,
