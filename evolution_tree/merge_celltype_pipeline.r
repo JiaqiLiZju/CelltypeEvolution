@@ -136,11 +136,19 @@ class_class_similarity_counting <- function(rearranged_celltype_mat){
   blackground_aveVal_celltype <- average_value_celltype_mat[average_value_celltype_mat$Mean_AUROC>0.8, ]
   
   ##MAX average_value of {sub_cluster1}
-  max_aveVal_celltype <- aggregate(average_value_celltype_mat,
-                                   by=list(average_value_celltype_mat$Cluster1),
-                                   FUN=max, na.rm=TRUE, drop=FALSE)
-  max_aveVal_celltype <- max_aveVal_celltype[,c(2,3,4)]
-  
+  # max_aveVal_celltype <- tapply(average_value_celltype_mat$Mean_AUROC, INDEX=average_value_celltype_mat$Cluster1, 
+  #                               FUN = max, simplify = TRUE)
+  # aggregate(average_value_celltype_mat$Mean_AUROC, by=list(average_value_celltype_mat$Cluster1),
+  #                                  FUN=max, na.rm=TRUE, drop=FALSE)
+  # max_aveVal_celltype <- max_aveVal_celltype[,c(2,3,4)]
+  # max_aveVal_celltype[which(max_aveVal_celltype$Mean_AUROC == aggregate(max_aveVal_celltype$Mean_AUROC, by=list(max_aveVal_celltype$Cluster1), FUN=max)[,2], arr.ind=T),]
+  max_aveVal_index<-average_value_celltype_mat[average_value_celltype_mat$Mean_AUROC %in% max_aveVal_celltype$Mean_AUROC,]
+  rownames(max_aveVal_index)<-max_aveVal_index$Mean_AUROC
+  max_aveVal_index<-max_aveVal_index[as.character(max_aveVal_celltype$Mean_AUROC),]
+  max_aveVal_celltype$Cluster<-max_aveVal_index$Cluster2
+  max_aveVal_celltype <- max_aveVal_celltype[,c(2,5,4)]
+  colnames(max_aveVal_celltype)[2]<-"Cluster2"
+
   #use pasted cluster name as index
   select <- rearranged_celltype_mat[,c('Cluster1', 'Cluster2', "Mean_AUROC")]
   blackground <- blackground_aveVal_celltype
@@ -164,14 +172,23 @@ class_class_similarity_counting <- function(rearranged_celltype_mat){
   ## total celltype anno_info of
   ## average_value{sub_cluster1}{sub_cluster2} > 0.8 OR MAX average_value of {sub_cluster1}
   max_black_celltype <- rearranged_celltype_mat[selected,]
+  max_black_celltype_backup<-max_black_celltype
   max_black_celltype <- aggregate(max_black_celltype,
                                   by=list(max_black_celltype[,1]),
                                   FUN=max, na.rm=TRUE, drop=FALSE)
+  max_black_index<-max_black_celltype_backup[max_black_celltype_backup$Mean_AUROC %in% max_black_celltype$Mean_AUROC,]
+  rownames(max_black_index)<-max_black_index$Mean_AUROC
+  max_black_index<-max_black_index[as.character(max_black_celltype$Mean_AUROC),]
+  max_black_celltype$CellType<-max_black_index$CellType2
+  max_black_celltype$Cluster<-max_black_index$Cluster2
+  max_black_celltype<-max_black_celltype[,c(1:4,9,6,10,8)]
+  colnames(max_black_celltype)[c(5,7)]<-c("CellType2","Cluster2")
+
   max_black_celltype <- na.omit(max_black_celltype)
   max_black_celltype <- max_black_celltype[,-1]
   #max_aveVal_celltype <- max_aveVal_celltype[,-4]
   #blackground_aveVal_celltype <- blackground_aveVal_celltype[,-4]
-  
+
   
   if (CHECK_POINT){
     message("average_value_celltype_mat:")
