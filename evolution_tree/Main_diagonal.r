@@ -68,7 +68,7 @@ draw_diagonal <- function(simi_cor_data, anno_info_fname, color, save=TRUE, save
 test_draw_diagonal <- function(){
   #'/home/ggj/jiaqiLi/dev/R_dev/script/evolution_tree/Total_dup_species.Cor.ann.sort.max_8_subclass.txt',
   pdf("out.pdf")
-  draw_diagonal('/home/ggj/jiaqiLi/dev/R_dev/script/evolution_tree/output/Total_dup_species.Cor.ann.sort.max_8_subclass_1.txt',
+  draw_diagonal('/home/ggj/jiaqiLi/dev/R_dev/script/evolution_tree/output/Total_dup_species.Cor.ann.sort.max_8_subclass_2.txt',
                 "/home/ggj/jiaqiLi/dev/R_dev/script/evolution_tree/data/438celltype-NEW-20190728.annotation",
                 "/home/ggj/jiaqiLi/dev/R_dev/script/evolution_tree/data/39Cluster_color.major.list")
   dev.off()

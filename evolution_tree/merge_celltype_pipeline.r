@@ -133,22 +133,19 @@ class_class_similarity_counting <- function(rearranged_celltype_mat){
   #####MAX_ADD
   ##as the blackground of class simialrity
   ##average_value{sub_cluster1}{sub_cluster2} > 0.8
-  blackground_aveVal_celltype <- average_value_celltype_mat[average_value_celltype_mat$Mean_AUROC>0.8, ]
+  blackground_aveVal_celltype <- average_value_celltype_mat[average_value_celltype_mat$Mean_AUROC>0.6, ]
   
   ##MAX average_value of {sub_cluster1}
-  # max_aveVal_celltype <- tapply(average_value_celltype_mat$Mean_AUROC, INDEX=average_value_celltype_mat$Cluster1, 
-  #                               FUN = max, simplify = TRUE)
-  # aggregate(average_value_celltype_mat$Mean_AUROC, by=list(average_value_celltype_mat$Cluster1),
-  #                                  FUN=max, na.rm=TRUE, drop=FALSE)
-  # max_aveVal_celltype <- max_aveVal_celltype[,c(2,3,4)]
-  # max_aveVal_celltype[which(max_aveVal_celltype$Mean_AUROC == aggregate(max_aveVal_celltype$Mean_AUROC, by=list(max_aveVal_celltype$Cluster1), FUN=max)[,2], arr.ind=T),]
+  max_aveVal_celltype <- aggregate(average_value_celltype_mat,
+                                   by=list(average_value_celltype_mat[,1]),
+                                   FUN=max, na.rm=T, drop=F)
   max_aveVal_index<-average_value_celltype_mat[average_value_celltype_mat$Mean_AUROC %in% max_aveVal_celltype$Mean_AUROC,]
   rownames(max_aveVal_index)<-max_aveVal_index$Mean_AUROC
   max_aveVal_index<-max_aveVal_index[as.character(max_aveVal_celltype$Mean_AUROC),]
   max_aveVal_celltype$Cluster<-max_aveVal_index$Cluster2
   max_aveVal_celltype <- max_aveVal_celltype[,c(2,5,4)]
   colnames(max_aveVal_celltype)[2]<-"Cluster2"
-
+  
   #use pasted cluster name as index
   select <- rearranged_celltype_mat[,c('Cluster1', 'Cluster2', "Mean_AUROC")]
   blackground <- blackground_aveVal_celltype
@@ -183,12 +180,12 @@ class_class_similarity_counting <- function(rearranged_celltype_mat){
   max_black_celltype$Cluster<-max_black_index$Cluster2
   max_black_celltype<-max_black_celltype[,c(1:4,9,6,10,8)]
   colnames(max_black_celltype)[c(5,7)]<-c("CellType2","Cluster2")
-
+  
   max_black_celltype <- na.omit(max_black_celltype)
   max_black_celltype <- max_black_celltype[,-1]
   #max_aveVal_celltype <- max_aveVal_celltype[,-4]
   #blackground_aveVal_celltype <- blackground_aveVal_celltype[,-4]
-
+  
   
   if (CHECK_POINT){
     message("average_value_celltype_mat:")
@@ -275,7 +272,7 @@ merge_celltype_pipeline <- function(fname_vector, arranged_species_name_vector, 
   class_similarity_counting_result <- class_class_similarity_counting(rearranged_anno_total_celltype_mat)
   
   if (!is.null(root_fname)){
-    root <- read.table(root_fname, sep='\t')
+    root <- read.table(root_fname,sep = "\t")
     colnames(root) <- colnames(class_similarity_counting_result[[4]])
     class_similarity_counting_result[[4]] <- rbind(class_similarity_counting_result[[4]], root)
   }
@@ -318,34 +315,34 @@ test_merge_celltype_pipeline <- function(){
   anno_info_fname = "../To_Jiaqi/Tree/438celltype-NEW-20190728.annotation"
   
   delete_celltype_list = c("TNFalpha cells(H).z",
-                  "sst1.1 cells(P).z",
-                  "Apelin cells(H).z",
-                  "Apelin cells(P).z",
-                  "Testicular cell.m",
-                  "Prostate gland cell.m",
-                  "Luteal cell.m",
-                  "Mammary gland in lactation.m",
-                  "Corneal cells.lz",
-                  "Ciona31",
-                  "Trophoblast progenitor cell.m",
-                  "Unknown(H).z",
-                  "Unknown(B).z")
+                           "sst1.1 cells(P).z",
+                           "Apelin cells(H).z",
+                           "Apelin cells(P).z",
+                           "Testicular cell.m",
+                           "Prostate gland cell.m",
+                           "Luteal cell.m",
+                           "Mammary gland in lactation.m",
+                           "Corneal cells.lz",
+                           "Ciona31",
+                           "Trophoblast progenitor cell.m",
+                           "Unknown(H).z",
+                           "Unknown(B).z")
   
   delete_cluster_list = c(
-                  "Proliferating.n",
-                  "Proliferating.s",
-                  "Proliferating.c",
-                  "Endoderm.a",
-                  "Proliferating.z",
-                  "Proliferating.m",
-                  "Proliferating.h")
+    "Proliferating.n",
+    "Proliferating.s",
+    "Proliferating.c",
+    "Endoderm.a",
+    "Proliferating.z",
+    "Proliferating.m",
+    "Proliferating.h")
   
   root_fname = "./data/root.txt"
   
   # print and save all the tmp file
   class_similarity_counting_result <- merge_celltype_pipeline(fname_vector, arranged_species_name_vector, anno_info_fname, root_fname,
-                          delete_celltype_list=delete_celltype_list, delete_cluster_list=delete_cluster_list,
-                          CHECK_POINT=F)
+                                                              delete_celltype_list=delete_celltype_list, delete_cluster_list=delete_cluster_list,
+                                                              CHECK_POINT=F)
   
   write.table(class_similarity_counting_result[[4]], file="./output/Total_dup_species.Cor.ann.sort.max_8_subclass_2.txt",
               sep="\t", row.names=FALSE, quote=F)
