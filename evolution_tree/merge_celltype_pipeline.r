@@ -349,39 +349,3 @@ test_merge_celltype_pipeline <- function(){
   write.table(class_similarity_counting_result[[4]], file="/home/ggj/Desktop/YF/30_70days_AXO/7.29_Qile/MetaNeighbor/Total_dup_species.Cor.ann.sort.max_8_subclass_2.txt",
               sep="\t", row.names=FALSE, quote=F)
 }
-
-
-setwd("~/Desktop/Products/R_test/celltype_evolution_tree/")
-###
-fname_vector <- c("./Axo30_35_celltype.NV_SRS.out",
-                  "./Axo35_45_celltype.NV_SRS.out",
-                  "./Axo45_50_celltype.NV_SRS.out",
-                  "./Axo50_70_celltype.NV_SRS.out")
-
-arranged_species_name_vector <- c(
-  "Axo30",
-  "Axo35",
-  "Axo45",
-  "Axo50",
-  "Axo70"
-)
-
-anno_info_fname = "./anno_3.txt"
-root_fname = "./root.txt"
-
-delete_celltype_list<-c()
-# print and save all the tmp file
-class_similarity_counting_result <- merge_celltype_pipeline(fname_vector, arranged_species_name_vector, anno_info_fname, root_fname,
-                                                            delete_cluster_list=delete_celltype_list,
-                                                            CHECK_POINT=F)
-write.table(class_similarity_counting_result[[4]], file="./Total_dup_species.Cor.ann.sort.max_8_subclass_2.txt",
-            sep="\t", row.names=FALSE, quote=F)
-
-
-###
-anno<-read.table('./anno_3.txt',header = T,sep = '\t')
-axo30<-read.table('./Axo30_35_celltype.NV_SRS.out',sep = '\t',header = T)
-
-axo30_test<-axo30[grep(rownames(axo30),pattern = 'Vascular'),]
-test<-class_similarity_counting_result[[4]]
-
